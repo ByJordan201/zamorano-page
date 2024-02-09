@@ -30,7 +30,7 @@ const ProjectCard = ({ data }) => {
                 <LazyLoad height={monitorWidth <= 600 ? 500 : monitorWidth <= 1550 ? 680 : monitorWidth <= 2000 ? 810 : 680} once>
                 </LazyLoad>
                 */}
-                <img className="item_image" src={img} alt="" />
+                <img className="item_image" src={img} alt="" height={`${monitorWidth <= 600 ? '500px' : monitorWidth <= 1550 ? '680px' : monitorWidth <= 2000 ? '810px' : '680px'}`}/>
                 <div className="works-info">
                     <div className="label-text">
                         <h6><a href="#">Lake Cabin</a></h6>
