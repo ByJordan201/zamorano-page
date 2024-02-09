@@ -47,57 +47,18 @@ export const routes = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home01/>,
-            },
-            {
-                path: '/home-3',
-                element: <Home03/>,
-            },
-            {
-                path: '/home-4',
-                element: <Home04/>,
-            },
-            {
-                path: '/home-5',
-                element: <Home05/>,
-            },
-            {
-                path: '/home-6',
                 element: <Home06/>,
-            },
-            {
-                path: '/home-8',
-                element: <Home08/>,
-            },
-            {
-                path: '/home-9',
-                element: <Home09/>,
             },
             {
                 path: '/project-1',
                 element: <Project01/>,
             },
-            {
-                path: '/project-2',
-                element: <Project02/>,
-            },
-            {
-                path: '/project-3',
-                element: <Project03/>,
-            },
-            {
-                path: '/project-details',
-                element: <ProjectDetails/>,
-            },
-            {
-                path: '/project-details-2',
-                element: <ProjectDetails02/>,
-            },
+            
             {
                 path: '/service-1',
                 element: <Service01/>,
             },
-            {
+            /*{
                 path: '/service-2',
                 element: <Service02/>,
             },
@@ -116,15 +77,15 @@ export const routes = createBrowserRouter([
             {
                 path: '/thank-you',
                 element: <ThankYou/>,
-            },
+            }, */
             {
                 path: '/team',
                 element: <Team/>,
             },
-            {
+            /* {
                 path: '/team-details',
                 element: <TeamDetails/>,
-            },
+            }, */
             {
                 path: '/contact',
                 element: <Contact/>,
@@ -135,12 +96,16 @@ export const routes = createBrowserRouter([
             },
             {
                 path: '/blog',
+                element: <BlogDetails/>,
+            },
+            /* {
+                path: '/blog',
                 element: <Blog/>,
             },
             {
                 path: '/blog-details',
                 element: <BlogDetails/>,
-            },
+            }, */
             {
                 path: '*',
                 element: <ErrorPage/>,
@@ -148,7 +113,7 @@ export const routes = createBrowserRouter([
 
         ]
     },
-    {
+    /* {
         path: "/",
         element: <HomeLayout02/>,
         children: [
@@ -180,8 +145,8 @@ export const routes = createBrowserRouter([
             },
 
         ]
-    },
-    {
+    }, */
+    /* {
         path: "/",
         loader: productsAndCartData,
         element: <ShopLayout/>,
@@ -222,5 +187,5 @@ export const routes = createBrowserRouter([
             // },
 
         ]
-    }
+    } */
 ])
