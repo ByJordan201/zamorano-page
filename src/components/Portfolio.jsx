@@ -8,13 +8,13 @@ const Portfolio = () => {
         {
             id: '1',
             img: 'images/portfolio/packery/2.jpg',
-            details: 'Sunlight in the Room',
+            details: 'Casa Grieve, Los Cabos, B.C.S., 2023',
             tag: 'interiors'
         },
         {
             id: '2',
             img: 'images/portfolio/packery/3.jpg',
-            details: 'Find your own self invintage lake house',
+            details: 'Hotel Chablé Mar de Cortés, La Paz, B.C.S., 2022',
             tag: 'residences'
         },
         // {
@@ -26,25 +26,31 @@ const Portfolio = () => {
         {
             id: '4',
             img: 'images/portfolio/packery/5.jpg',
-            details: 'Huge large area Bedroom',
+            details: 'CHIREY La Paz, B.C.S. 2022',
             tag: 'landscape'
         },
         {
             id: '5',
             img: 'images/portfolio/packery/6.jpg',
-            details: 'Clean water in the swiming pool',
+            details: 'Fundadores 26, Los Cabos, B.C.S. 2022',
             tag: 'interiors'
         },
         {
             id: '6',
             img: 'images/portfolio/packery/7.jpg',
-            details: 'Newyork golf club house',
+            details: 'Lote 24, Los Cabos, B.C.S. 2022',
             tag: 'interiors'
         },
         {
             id: '7',
             img: 'images/portfolio/packery/8.jpg',
-            details: 'California young menz club',
+            details: 'Ágora, Hermosillo, Sonora 2021',
+            tag: 'exterior'
+        },
+        {
+            id: '8',
+            img: 'images/portfolio/packery/8.jpg',
+            details: 'Casa Caplan, Los Cabos, B.C.S., 2019',
             tag: 'exterior'
         },
 
