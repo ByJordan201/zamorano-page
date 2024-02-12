@@ -70,9 +70,9 @@ const AboutUs = () => {
         <main className="wrapper">
             <MissionContainer />
 
-            <div className="video-block" >
+            {/* <div className="video-block" >
                 <Video />
-            </div>
+            </div> */}
 
             <FunFacts className='funfacts pd-top-lg bg_2' />
             <ServiceContainer01 />
