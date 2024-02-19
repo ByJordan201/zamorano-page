@@ -47,51 +47,51 @@ const Footer = () => {
                         <div className="row align-items-end">
                             <div className="col-lg-4 col-md-2 col-sm-2">
                                 <div className="section-header">
-                                    <h2>Contact</h2>
+                                    <h2>Contacto</h2>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-5 col-sm-5">
                                 <div className="communication">
-                                    <div className="info_body"
-                                    >
+                                    {/* <div className="info_body">
                                         <h6>Studio Website</h6>
                                         <h5>www.mrittikarchitects.com</h5>
-                                    </div>
-                                    <div className="info_body"
-                                    >
-                                        <h6>Email Address</h6>
-                                        <h5>mrittikarchitects@gmail.com</h5>
-                                    </div>
-                                    <div className="info_body"
-                                    >
-                                        <h6>Phone No</h6>
-                                        <h5>+123 (456789)</h5>
+                                    </div> */}
+                                    <div className="info_body">
+                                        <h6>Correo de contacto</h6>
+                                        <h5>contacto@zamoranoie.com</h5>
                                     </div>
                                     <div className="info_body">
-                                        <h6>Office Address</h6>
-                                        <h5>3 Madison Street NY, USA</h5>
+                                        <h6>Teléfono</h6>
+                                        <h5>612 125 9586</h5>
+                                    </div>
+                                    <div className="info_body">
+                                        <h6>Página de FB</h6>
+                                        <h5>ZIELPZ</h5>
+                                    </div>
+                                    <div className="info_body">
+                                        <h6>Página de IG</h6>
+                                        <h5>zamorano.ingestructural</h5>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-5 col-sm-5">
                                 <div className="footer_elements d-flex align-items-center justify-content-end">
                                     <div className="footer_elements_inner">
-                                        <div className="footer_logo"
-                                        >
-                                            <a href="/" className="light_logo"><img src="images/logo-light.svg" alt="logo" /></a>
+                                        <div className="footer_logo">
+                                            <a href="/" className="light_logo"><img src="images/logo-light.png" alt="logo" /></a>
                                         </div>
                                         <div className="footer_social">
                                             <ul className="social_list">
                                                 <li className="facebook"
-                                                ><a><i className="bi bi-facebook"></i></a></li>
-                                                <li className="twitter"
-                                                ><a><i className="bi bi-twitter"></i></a></li>
+                                                ><a href="https://www.facebook.com/ZIELPZ" target="_blank"><i className="bi bi-facebook"></i></a></li>
+                                                {/* <li className="twitter"
+                                                ><a><i className="bi bi-twitter"></i></a></li> */}
                                                 <li className="instagram"
-                                                ><a><i className="bi bi-instagram"></i></a></li>
-                                                <li className="youbetube"><a><i className="bi bi-youtube"></i></a></li>
+                                                ><a href="https://www.instagram.com/zamorano.ingestructural/" target="_blank"><i className="bi bi-instagram"></i></a></li>
+                                                {/* <li className="youbetube"><a><i className="bi bi-youtube"></i></a></li> */}
                                             </ul>
                                         </div>
-                                        <div className="terms_condition">
+                                        {/* <div className="terms_condition">
                                             <ul>
                                                 <li><a>Terms</a></li>
                                                 <li><a>Condition</a></li>
@@ -101,7 +101,7 @@ const Footer = () => {
                                         <div className="copyright"
                                         >
                                             <p>Mrittik 2023. All Rights Reserved</p>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
