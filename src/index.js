@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import App from './App';
 import './assets/css/style.css';
 import './index.css';
+import './assets/css/styles-personals.css'
 import reportWebVitals from './reportWebVitals';
 
 

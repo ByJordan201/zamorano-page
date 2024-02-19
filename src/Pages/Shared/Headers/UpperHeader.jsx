@@ -50,7 +50,7 @@ const UpperHeader = () => {
             <div className="container">
                 <div className="header_inner d-flex align-items-center justify-content-between">
                     <div className="logo">
-                        <a href='/' className="light_logo"><img src="images/logo-light.png" alt="logo" /></a>
+                        <a href='/' className="light_logo"><img className='img-logo' src="images/logo-light.png" alt="logo" /></a>
                         <a href='/' className="dark_logo"><img src="images/logo-dark.png" alt="logo" /></a>
                     </div>
 

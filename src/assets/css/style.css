@@ -11647,8 +11647,6 @@ label {
 }
 
 .header .logo a img {
-  width: 100%;
-  max-width: 114px;
   transition: all 0.5s ease-in-out;
 }
 
