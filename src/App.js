@@ -16,7 +16,7 @@ import './assets/css/style.css';
 function App() {
   return (
     <div>
-      <ThemeSwitcher/>
+      {/* <ThemeSwitcher/> */}
       <RouterProvider router={routes} /> 
     </div>
   );
