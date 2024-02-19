@@ -6,13 +6,13 @@ const ContactContainer = () => {
 
     return (
         <main className="wrapper">
-            <section className="gmap box_padding">
+            {/* <section className="gmap box_padding">
                 <div className="gmapbox">
                     <div id="googleMap" className="map">
                         <Map />
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <ContactForm />
         </main>

@@ -10,8 +10,8 @@ const ContactForm = () => {
                 <div className="row justify-content-between">
                     <div className="col-lg-5">
                         <div className="section-header">
-                            <h1 className="text-white text-uppercase mb-4">LET’S DISCUSS NEXT PROJECTS</h1>
-                            <Paragraph text='The talent at Mrittik runs wide and deep. Across many markets, geographies and typologies, our team members are some of the finest professionals in the industry.. We’ve grouped our work into five categories: places, venues, spaces, experiences and events.' />
+                            <h1 className="text-white text-uppercase mb-4">Envía tu proyecto </h1>
+                            <Paragraph text='En breve nos pondremos en contacto.' />
                         </div>
                     </div>
 

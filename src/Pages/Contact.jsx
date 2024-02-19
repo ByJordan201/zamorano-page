@@ -5,7 +5,7 @@ import PageBanner from '../containers/PageBanner';
 const Contact = () => {
     return (
         <>
-            <PageBanner pageTitle='Pages' title="Contact" activePage="Contact"></PageBanner>
+            <PageBanner pageTitle='Contacto' title="Contacto" activePage="Contacto"></PageBanner>
             <ContactContainer />
         </>
     );
