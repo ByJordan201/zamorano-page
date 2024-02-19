@@ -7,11 +7,11 @@ const SliderCard06 = (props) => {
                 <div className="slide_content">
                     <div className="slide_content_wrapper mb-0 h-auto">
                         <div className="slide_content_inner">
-                            <h4><a href="/project-details" className="text-white">{props.title}</a></h4>
+                            <h4><a className="text-white">{props.title}</a></h4>
                             <div className="details_link">
                                 <a href="/about">
-                                    <span className="link_text">Mrittik Architecture Details - </span>
-                                    <span className="link_icon">Click Here</span>
+                                    <span className="link_text">para Conocer más</span>
+                                    <span className="link_icon">Clic aquí</span>
                                 </a>
                             </div>
                         </div>

@@ -32,3 +32,6 @@
     display: grid;
     place-content: center;
 }
+.mission_content{
+    margin-bottom: 50px;
+}
