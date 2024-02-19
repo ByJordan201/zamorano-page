@@ -21,7 +21,7 @@ const ProjectCard = ({ data }) => {
     let elHeight = Number(dimensions.height);
     // console.log(typeof elHeight);
 
-    const { img, details, tag } = data;
+    const { img, location, details, tag } = data;
 
     return (
         <div className={`grid-item ${tag} width-50`}>
@@ -33,9 +33,9 @@ const ProjectCard = ({ data }) => {
                 <img className="item_image" src={img} alt="" height={`${monitorWidth <= 600 ? '500px' : monitorWidth <= 1550 ? '680px' : monitorWidth <= 2000 ? '810px' : '680px'}`}/>
                 <div className="works-info">
                     <div className="label-text">
-                        <h6><a href="#">Lake Cabin</a></h6>
-                        <h5><a href="/project-details">{details}</a></h5>
-                        <div className="details_link"><a href="/project-details"><span className="link_text">View Details</span> <span className="link_icon"><span className="line"></span> <span className="circle"></span><span className="dot"></span></span></a></div>
+                        <h6>{location}</h6>
+                        <h5>{details}</h5>
+                        {/* <div className="details_link"><a href="/project-details"><span className="link_text">View Details</span> <span className="link_icon"><span className="line"></span> <span className="circle"></span><span className="dot"></span></span></a></div> */}
                     </div>
                 </div>
             </div>

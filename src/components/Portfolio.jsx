@@ -8,49 +8,50 @@ const Portfolio = () => {
         {
             id: '1',
             img: 'images/portfolio/packery/2.jpg',
-            details: 'Casa Grieve, Los Cabos, B.C.S., 2023',
+            location: 'Los Cabos, B.C.S., 2023',
+            details: 'Casa Grieve',
             tag: 'interiors'
         },
         {
             id: '2',
             img: 'images/portfolio/packery/3.jpg',
-            details: 'Hotel Chablé Mar de Cortés, La Paz, B.C.S., 2022',
+            location: 'La Paz, B.C.S., 2022',
+            details: 'Hotel Chablé Mar de Cortés',
             tag: 'residences'
         },
-        // {
-        //     id: '3',
-        //     img: 'images/portfolio/packery/4.jpg',
-        //     details: 'Well decor house in Sydney',
-        //     tag: 'landscape exterior'
-        // },
         {
             id: '4',
             img: 'images/portfolio/packery/5.jpg',
-            details: 'CHIREY La Paz, B.C.S. 2022',
+            location: 'La Paz, B.C.S. 2022',
+            details: 'CHIREY',
             tag: 'landscape'
         },
         {
             id: '5',
             img: 'images/portfolio/packery/6.jpg',
-            details: 'Fundadores 26, Los Cabos, B.C.S. 2022',
+            location: 'Los Cabos, B.C.S. 2022',
+            details: 'Fundadores 26',
             tag: 'interiors'
         },
         {
             id: '6',
             img: 'images/portfolio/packery/7.jpg',
-            details: 'Lote 24, Los Cabos, B.C.S. 2022',
+            location: 'Los Cabos, B.C.S. 2022',
+            details: 'Lote 24',
             tag: 'interiors'
         },
         {
             id: '7',
-            img: 'images/portfolio/packery/8.jpg',
-            details: 'Ágora, Hermosillo, Sonora 2021',
+            img: 'images/portfolio/packery/Agora.jpg',
+            location: 'Hermosillo, Sonora 2021',
+            details: 'Ágora',
             tag: 'exterior'
         },
         {
             id: '8',
             img: 'images/portfolio/packery/8.jpg',
-            details: 'Casa Caplan, Los Cabos, B.C.S., 2019',
+            location: 'Los Cabos, B.C.S., 2019',
+            details: 'Casa Caplan',
             tag: 'exterior'
         },
 
@@ -88,7 +89,7 @@ const Portfolio = () => {
             <SectionGridLines />
             <div className="container">
 
-                <div className="portfolio-filters-content">
+                {/* <div className="portfolio-filters-content">
                     <div className="filters-button-group">
                         <button className="button" onClick={handleFilterKeyChange('*')}>All <sup className="filter-count"></sup></button>
                         <button className="button" onClick={handleFilterKeyChange('exterior')}>Exterior <sup className="filter-count"></sup></button>
@@ -96,7 +97,7 @@ const Portfolio = () => {
                         <button className="button" onClick={handleFilterKeyChange('interiors')}>Interiors <sup className="filter-count"></sup></button>
                         <button className="button" onClick={handleFilterKeyChange('landscape')}>Landscape <sup className="filter-count"></sup></button>
                     </div>
-                </div>
+                </div> */}
                 <div className="grid gutter-20 clearfix">
                     <div className="grid-sizer"></div>
                     {
