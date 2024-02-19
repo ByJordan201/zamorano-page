@@ -66,13 +66,13 @@ const TeamContainer = () => {
         <section className="team in-team">
             <div className="container-sm">
                 <div className="section-header medium">
-                    <PageHeader className='heading' title="Meet Our Team" />
+                    <PageHeader className='heading' title="Nuestra misión " />
                     <div className="section-desc row align-items-center justify-content-center">
                         <div className="col-lg-5">
-                            <Paragraph text="Mrittik Architects is a full-service design firm providing architecture, master planning, urban design, interior architecture, space planning & programming." />
+                            <Paragraph text="Es realizar proyectos estructurales con altos estándares de calidad, superando las expectativas de nuestros clientes, buscando la mejor opción para cada proyecto, a través de un sólido equipo de trabajo." />
                         </div>
                         <div className="col-lg-7">
-                            <Paragraph text="Mrittik Architects is a full-service design firm providing architecture, master planning, urban design interior architecture space planning & programming. Our portfolio of completed work includes highly acclaim" />
+                            <Paragraph text="Nuestra visión es ser la empresa de diseño estructural líder a nivel regional en 2025, comprometidos siempre con la calidad en nuestros servicios y la satisfacción de nuestros clientes." />
                         </div>
                     </div>
                 </div>
