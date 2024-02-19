@@ -4,12 +4,12 @@ const Form = () => {
     return (
         <div className="home_contact">
             <form action="contact.php" method="POST">
-                <input className="form-control form-control-lg" name="name" id="name" type="text" placeholder="Your Name*" required aria-label=".form-control-lg example" />
-                <input className="form-control form-control-lg" name="phone" id="phone" type="number" placeholder="Your Phone No" aria-label=".form-control-lg example" />
-                <input className="form-control form-control-lg" name="email" id="email" type="email" placeholder="Your Email*" required aria-label=".form-control-lg example" />
-                <textarea className="form-control pt-4" name="message" id="message" placeholder="Your Message" rows="3"></textarea>
+                <input className="form-control form-control-lg" name="name" id="name" type="text" placeholder="Nombre completo" required aria-label=".form-control-lg example" />
+                <input className="form-control form-control-lg" name="phone" id="phone" type="tel" placeholder="Número de teléfono" aria-label=".form-control-lg example" />
+                <input className="form-control form-control-lg" name="email" id="email" type="email" placeholder="Correo electrónico" required aria-label=".form-control-lg example" />
+                <textarea className="form-control pt-4" name="message" id="message" placeholder="Describe brevemente tu proyecto" rows="3"></textarea>
                 <div className="btn_group">
-                    <button type="submit" className="btn olive">Send Mail</button>
+                    <button type="submit" className="btn olive">Enviar</button>
                 </div>
             </form>
         </div>
