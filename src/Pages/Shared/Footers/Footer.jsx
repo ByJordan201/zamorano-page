@@ -62,7 +62,7 @@ const Footer = () => {
                                     </div>
                                     <div className="info_body">
                                         <h6>Teléfono</h6>
-                                        <h5>612 125 9586</h5>
+                                        <h5>+52 612 125 95 86</h5>
                                     </div>
                                     <div className="info_body">
                                         <h6>Página de FB</h6>
@@ -78,16 +78,14 @@ const Footer = () => {
                                 <div className="footer_elements d-flex align-items-center justify-content-end">
                                     <div className="footer_elements_inner">
                                         <div className="footer_logo">
-                                            <a href="/" className="light_logo"><img src="images/logo-light.png" alt="logo" /></a>
+                                            <a href="/" className="light_logo"><img className="logo_footer" src="images/logo-light.png" alt="logo" /></a>
                                         </div>
                                         <div className="footer_social">
                                             <ul className="social_list">
-                                                <li className="facebook"
-                                                ><a href="https://www.facebook.com/ZIELPZ" target="_blank"><i className="bi bi-facebook"></i></a></li>
+                                                <li className="facebook"><a id='base-icon-social' href="https://www.facebook.com/ZIELPZ" target="_blank"><i id='icon-social' className="bi bi-facebook" ></i></a></li>
                                                 {/* <li className="twitter"
                                                 ><a><i className="bi bi-twitter"></i></a></li> */}
-                                                <li className="instagram"
-                                                ><a href="https://www.instagram.com/zamorano.ingestructural/" target="_blank"><i className="bi bi-instagram"></i></a></li>
+                                                <li className="instagram"><a id='base-icon-social' href="https://www.instagram.com/zamorano.ingestructural/" target="_blank"><i id='icon-social' className="bi bi-instagram"></i></a></li>
                                                 {/* <li className="youbetube"><a><i className="bi bi-youtube"></i></a></li> */}
                                             </ul>
                                         </div>

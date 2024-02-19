@@ -1,4 +1,34 @@
 .img-logo{
     width: 100%;
-    max-width: 200px;
+    max-width: 170px;
+}
+
+.logo_footer{
+    width: 100%;
+    max-width: 300px;
+}
+
+#logo_lateral{
+    width: 100%;
+    max-width: 300px;
+}
+
+.social_media{
+    width: 100%;
+    max-width: 300px;
+}
+
+#base-icon-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+#icon-social{
+    font-size: 20px;
+}
+.social_list{
+    display: grid;
+    place-content: center;
 }
