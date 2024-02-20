@@ -58,30 +58,30 @@ export const routes = createBrowserRouter([
                 path: '/service-1',
                 element: <Service01/>,
             },
-            /*{
+           /*  {
                 path: '/service-2',
                 element: <Service02/>,
             },
             {
                 path: '/service-details',
                 element: <ServiceDetails/>,
-            },
+            }, */
             {
                 path: '/login',
                 element: <Login/>,
             },
-            {
+           /*  {
                 path: '/coming-soon',
                 element: <CommingSoon/>,
             },
             {
                 path: '/thank-you',
                 element: <ThankYou/>,
-            }, */
+            },
             {
                 path: '/team',
                 element: <Team/>,
-            },
+            }, */
             /* {
                 path: '/team-details',
                 element: <TeamDetails/>,
