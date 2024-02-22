@@ -7,7 +7,7 @@ const Portfolio = () => {
     const ProjectData01 = [
         {
             id: '1',
-            img: 'images/portfolio/packery/8.jpg',
+            img: 'images/portfolio/packery/Caplan.jpeg',
             location: 'Los Cabos, B.C.S., 2019',
             details: 'Casa Caplan',
             tag: 'exterior'
@@ -21,21 +21,21 @@ const Portfolio = () => {
         },
         {
             id: '3',
-            img: 'images/portfolio/packery/7.jpg',
+            img: 'images/portfolio/packery/L24.png',
             location: 'Los Cabos, B.C.S. 2022',
             details: 'Lote 24',
             tag: 'interiors'
         },
         {
             id: '4',
-            img: 'images/portfolio/packery/6.jpg',
+            img: 'images/portfolio/packery/Fundadores26.png',
             location: 'Los Cabos, B.C.S. 2022',
             details: 'Fundadores 26',
             tag: 'interiors'
         },
         {
             id: '5',
-            img: 'images/portfolio/packery/5.jpg',
+            img: 'images/portfolio/packery/CHIREY.jpeg',
             location: 'La Paz, B.C.S. 2022',
             details: 'CHIREY',
             tag: 'landscape'
@@ -49,7 +49,7 @@ const Portfolio = () => {
         },
         {
             id: '7',
-            img: 'images/portfolio/packery/2.jpg',
+            img: 'images/portfolio/packery/Grieve.jpg',
             location: 'Los Cabos, B.C.S., 2023',
             details: 'Casa Grieve',
             tag: 'interiors'
