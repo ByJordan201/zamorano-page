@@ -68,20 +68,20 @@ const UpperHeader = () => {
                                     <li className="menu-item"><a href="/project-1">Projects One</a></li>
                                 </ul> */}
                             </li>
-                            <li className="menu-item menu-item-has-children"><a href="/about">QUIÉNES SOMOS</a>
-                                <ul className="sub-menu">
+                            <li className="menu-item "><a href="/about">QUIÉNES SOMOS</a>
+                                {/* <ul className="sub-menu">
                                     <li className="menu-item"><a href="/about">About Us</a></li>
                                     <li className="menu-item "><a href="/team">NOSOTROS</a>
-                                        {/* <ul className="sub-menu">
+                                        <ul className="sub-menu">
                                             <li className="menu-item"><a href="/team">Our Team</a></li>
-                                        </ul> */}
+                                        </ul>
                                     </li>
                                     <li className="menu-item "><a href="/service-1">SERVICIOS</a>
-                                        {/* <ul className="sub-menu">
+                                        <ul className="sub-menu">
                                             <li className="menu-item"><a href="/service-1">Service One</a></li>
-                                        </ul> */}
+                                        </ul>
                                     </li>
-                                    {/* <li className="menu-item menu-item-has-children"><a href="/">Shop</a>
+                                    <li className="menu-item menu-item-has-children"><a href="/">Shop</a>
                                         <ul className="sub-menu">
                                             <li className="menu-item"><a href="/shop-1">Shop One</a></li>
                                             <li className="menu-item"><a href="/shop-2">Shop Two</a></li>
@@ -93,8 +93,8 @@ const UpperHeader = () => {
                                         </ul>
                                     </li>
                                     <li className="menu-item"><a href="/404">404 Page</a></li>
-                                    <li className="menu-item"><a href="/coming-soon">Coming Soon</a></li> */}
-                                </ul>
+                                    <li className="menu-item"><a href="/coming-soon">Coming Soon</a></li>
+                                </ul> */}
                             </li>
                             <li className="menu-item"><a href="/contact">CONTACTO</a></li>
                             <li className="menu-item "><a href="/blog">NOTICIAS ZIE</a>

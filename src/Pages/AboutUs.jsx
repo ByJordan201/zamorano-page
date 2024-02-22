@@ -78,8 +78,8 @@ const AboutUs = () => {
             <ServiceContainer01 />
             <TextAbout />
             <TeamContainer02 />
-            <Testimonials />
-            <FormContainer />
+            {/* <Testimonials /> */}
+            {/* <FormContainer /> */}
         </main>
     );
 };
