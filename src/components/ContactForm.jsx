@@ -10,7 +10,7 @@ const ContactForm = () => {
                 <div className="row justify-content-between">
                     <div className="col-lg-5">
                         <div className="section-header">
-                            <h1 className="text-white text-uppercase mb-4">Envía tu proyecto </h1>
+                            <h1 className="text-white text-uppercase mb-4">Envía tu información de contacto </h1>
                             <Paragraph text='En breve nos pondremos en contacto.' />
                         </div>
                     </div>
