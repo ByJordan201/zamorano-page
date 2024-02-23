@@ -35,6 +35,21 @@
 .mission_content{
     margin-bottom: 50px;
 }
+.funfact-grid{
+    display: grid;
+    gap: 70px;
+    padding: 50px;
+    grid-template-columns: repeat(2,1fr);
+}
+.paragraph-grid{
+    line-height: 40px;
+    font-size:x-large;
+}
+@media screen and (max-width: 750px) {
+    .funfact-grid{
+        grid-template-columns: none;
+    }
+}
 
 /* .item_image{
     object-fit: ;
