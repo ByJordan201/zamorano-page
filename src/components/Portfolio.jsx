@@ -28,7 +28,7 @@ const Portfolio = () => {
         },
         {
             id: '4',
-            img: 'images/portfolio/packery/Fundadores26.png',
+            img: 'images/portfolio/packery/Fundadores26-2.png',
             location: 'Los Cabos, B.C.S. 2022',
             details: 'Fundadores 26',
             tag: 'interiors'
@@ -43,14 +43,14 @@ const Portfolio = () => {
         {
             id: '6',
             /* img: 'images/portfolio/packery/Chable.png', */
-            img: 'images/portfolio/packery/Chablé.jpeg',
+            img: 'images/portfolio/packery/Chablé.png',
             location: 'La Paz, B.C.S., 2022',
             details: 'Hotel Chablé Mar de Cortés',
             tag: 'residences'
         },
         {
             id: '7',
-            img: 'images/portfolio/packery/Grieve.jpg',
+            img: 'images/portfolio/packery/Grieve.png',
             location: 'Los Cabos, B.C.S., 2023',
             details: 'Casa Grieve',
             tag: 'interiors'
