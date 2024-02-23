@@ -31,7 +31,7 @@ const FunFacts = (props) => {
         },
     ];
 
-    useEffect(() => {
+    /* useEffect(() => {
         var a = 0;
         $(window).on("scroll", function () {
 
@@ -51,7 +51,7 @@ const FunFacts = (props) => {
                 a = 1;
             }
         });
-    }, []);
+    }, []); */
     return (
         <section className={props.className} id="funfacts">
             <div className="container">
