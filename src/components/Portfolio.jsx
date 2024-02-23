@@ -42,7 +42,8 @@ const Portfolio = () => {
         },
         {
             id: '6',
-            img: 'images/portfolio/packery/3.jpg',
+            /* img: 'images/portfolio/packery/Chable.png', */
+            img: 'images/portfolio/packery/Chablé.jpeg',
             location: 'La Paz, B.C.S., 2022',
             details: 'Hotel Chablé Mar de Cortés',
             tag: 'residences'

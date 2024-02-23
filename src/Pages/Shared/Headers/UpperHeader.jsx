@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const UpperHeader = () => {
     // Hide header on scroll down
@@ -57,18 +58,20 @@ const UpperHeader = () => {
 
                     <div className="mainnav d-none d-lg-block">
                         <ul className="main_menu">
-                            <li className="menu-item "><a href="/">INICIO</a>{/* 
+                            <li className="menu-item "><NavLink to={"/"}>INICIO</NavLink>
+                            
+                            {/* 
                                 <ul className="sub-menu">
                                     <li className="menu-item"><a href="/">Home One</a></li>
                                     <li className="menu-item"><a href="/home-6">Home Six</a></li>
                                 </ul> */}
                             </li>
-                            <li className="menu-item "><a href="/project-1">PROYECTOS</a>
+                            <li className="menu-item "><NavLink to={"/project-1"}>PROYECTOS</NavLink>
                                 {/* <ul className="sub-menu">
-                                    <li className="menu-item"><a href="/project-1">Projects One</a></li>
+                                    <li className="menu-item"><NavLink to={"/project-1"}>Projects One</NavLink></li>
                                 </ul> */}
                             </li>
-                            <li className="menu-item "><a href="/about">QUIÉNES SOMOS</a>
+                            <li className="menu-item "><NavLink to={"/about"}>QUIÉNES SOMOS</NavLink>
                                 {/* <ul className="sub-menu">
                                     <li className="menu-item"><a href="/about">About Us</a></li>
                                     <li className="menu-item "><a href="/team">NOSOTROS</a>
@@ -96,8 +99,8 @@ const UpperHeader = () => {
                                     <li className="menu-item"><a href="/coming-soon">Coming Soon</a></li>
                                 </ul> */}
                             </li>
-                            <li className="menu-item"><a href="/contact">CONTACTO</a></li>
-                            <li className="menu-item "><a href="/blog">NOTICIAS ZIE</a>
+                            <li className="menu-item"><NavLink to={"/contact"}>CONTACTO</NavLink></li>
+                            <li className="menu-item "><NavLink to={"/blog"}>NOTICIAS ZIE</NavLink>
                                 {/* <ul className="sub-menu">
                                     <li className="menu-item"><a href="/blog">Blog</a></li>
                                     <li className="menu-item"><a href="/blog-details">Blog Details</a></li>
