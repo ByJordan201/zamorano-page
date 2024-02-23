@@ -2,7 +2,7 @@ import React from 'react';
 
 const Paragraph = (props) => {
     return (
-        <p>{props.text}</p>
+        <p className="paragraph-grid">{props.text}</p>
     );
 };
 

@@ -74,7 +74,7 @@ const AboutUs = () => {
                 <Video />
             </div> */}
 
-            <FunFacts className='funfacts pd-top-lg bg_2' />
+            <FunFacts className='funfacts bg_2' />
             <ServiceContainer01 />
             <TextAbout />
             <TeamContainer02 />
