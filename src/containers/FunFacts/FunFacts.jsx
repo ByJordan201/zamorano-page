@@ -1,6 +1,8 @@
 import $ from 'jquery';
 import React, { useEffect } from 'react';
+
 import FunFact from '../../components/FunFactElements/FunFact';
+import Paragraph from '../../components/Paragraph';
 
 const FunFacts = (props) => {
     const FunFactData = [
@@ -54,6 +56,32 @@ const FunFacts = (props) => {
     }, []); */
     return (
         <section className={props.className} id="funfacts">
+            <section className='funfact-grid'>
+                <div className="section-header medium">
+                    <div style={{textAlign:"center"}}>
+                        <h2 className='heading'>Nuestra visión</h2>
+                    </div>
+                    <div className="">
+                        <div style={{textAlign:"center"}} className="">
+                            <Paragraph text="Nuestra visión es ser la empresa de diseño estructural líder a nivel regional en 2025, comprometidos siempre con la calidad en nuestros servicios y la satisfacción de nuestros clientes." />
+                        </div>
+                    </div>
+                </div>
+                <div className="section-header medium">
+                    <div style={{textAlign:"center"}}>
+                        <h2 className='heading'>Nuestros valores</h2>
+                    </div>
+                    <div className="">
+                        <div style={{textAlign:"center"}} className="">
+                            <Paragraph text="Nuestros valores nos dan una pauta del camino seguido, nos dan identidad empresarial y nos distinguen de los demás." />
+                            <Paragraph text="Trabajo en equipo"/>
+                            <Paragraph text="Honestidad"/>
+                            <Paragraph text="Transparencia" />
+                            <Paragraph text="Responsabilidad"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <div className="container">
             <div className="section-header text-center has_line">
                 <h1 className="text-white">Logros en el año 2023</h1>
@@ -69,7 +97,6 @@ const FunFacts = (props) => {
                                         data={data}
                                     />)
                             }
-
                         </div>
                     </div>
                 </div>

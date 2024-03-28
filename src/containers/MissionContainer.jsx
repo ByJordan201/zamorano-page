@@ -6,8 +6,8 @@ const MissionContainer = () => {
             <div className="container">
                 {/* <div className="mission_top_part">
                     <div className="section-header text-center">
-                        <h6 className="text-white text-uppercase">Our MISSION</h6>
-                        <p className="text-gray-600">Our organizational sprit believes that where design meets passion & love with space, good architecture happens here</p>
+                        <h6 className="text-white text-uppercase">Nuestra misión</h6>
+                        <p className="text-gray-600">Nuestra misión es realizar proyectos estructurales con altos estándares de calidad, superando las expectativas de nuestros clientes, buscando la mejor opción para cada proyecto, a través de un sólido equipo de trabajo.</p>
                     </div>
                     <div className="has_line"></div>
                     
