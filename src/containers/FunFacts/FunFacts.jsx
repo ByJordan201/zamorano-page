@@ -6,18 +6,18 @@ const FunFacts = (props) => {
     const FunFactData = [
         {
             id: '1',
-            contentName: 'Design Drawing',
-            contentNumber: '120',
-            img: 'images/fact-1.png'
-        },
-        {
-            id: '2',
-            contentName: 'Project Completed',
-            contentNumber: '210',
-            plus: '+',
+            contentName: 'Proyectos realizados',
+            contentNumber: '536',
             img: 'images/fact-2.png'
         },
         {
+            id: '2',
+            contentName: 'Dibujos realizados',
+            contentNumber: '427',
+            //plus: '+',
+            img: 'images/fact-1.png'
+        },
+        /* {
             id: '3',
             contentName: 'Design Drawing',
             contentNumber: '15',
@@ -28,7 +28,7 @@ const FunFacts = (props) => {
             contentName: 'Project Running',
             contentNumber: '62',
             img: 'images/fact-4.png'
-        },
+        }, */
     ];
 
     /* useEffect(() => {
@@ -55,6 +55,10 @@ const FunFacts = (props) => {
     return (
         <section className={props.className} id="funfacts">
             <div className="container">
+            <div className="section-header text-center has_line">
+                <h1 className="text-white">Logros en el año 2023</h1>
+                <p className="text-white">Descubre nuestros principales logros y estadísticas del último año</p>
+            </div>
                 <div className="row">
                     <div className="col">
                         <div className="funfacts_inner">

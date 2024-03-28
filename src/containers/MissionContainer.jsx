@@ -4,14 +4,15 @@ const MissionContainer = () => {
     return (
         <section className="mission">
             <div className="container">
-                <div className="mission_top_part">
+                {/* <div className="mission_top_part">
                     <div className="section-header text-center">
                         <h6 className="text-white text-uppercase">Our MISSION</h6>
                         <p className="text-gray-600">Our organizational sprit believes that where design meets passion & love with space, good architecture happens here</p>
                     </div>
                     <div className="has_line"></div>
-                    <img src="images/bg/lobby.jpg" alt="" />
-                </div>
+                    
+                </div> */}
+                <img src="images/bg/lobby.jpg" alt="" />
 
                 <div className="mission_bottom_part">
                     <div className="row justify-content-center">
