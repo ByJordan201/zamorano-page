@@ -59,6 +59,17 @@ const FunFacts = (props) => {
             <section className='funfact-grid'>
                 <div className="section-header medium">
                     <div style={{textAlign:"center"}}>
+                        <h2 className='heading'>Nuestra misión</h2>
+                    </div>
+                    <div className="">
+                        <div style={{textAlign:"center"}} className="">
+                            <Paragraph text="Nuestra misión es realizar proyectos estructurales con altos estándares de calidad, superando las expectativas de nuestros clientes, buscando la mejor opción para cada proyecto, a través de un sólido equipo de trabajo." />
+                        </div>
+                    </div>
+                </div>
+
+                <div className="section-header medium">
+                    <div style={{textAlign:"center"}}>
                         <h2 className='heading'>Nuestra visión</h2>
                     </div>
                     <div className="">
@@ -67,6 +78,7 @@ const FunFacts = (props) => {
                         </div>
                     </div>
                 </div>
+                
                 <div className="section-header medium">
                     <div style={{textAlign:"center"}}>
                         <h2 className='heading'>Nuestros valores</h2>

@@ -18,6 +18,11 @@
     max-width: 300px;
 }
 
+.image_container{
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
 #base-icon-social{
     display: flex;
     align-items: center;
