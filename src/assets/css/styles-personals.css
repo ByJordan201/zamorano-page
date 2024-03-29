@@ -55,6 +55,16 @@
         grid-template-columns: none;
     }
 }
+.grid-team{
+    display: grid;
+    gap:10px;
+    grid-template-columns: repeat(3,1fr);
+}
+@media screen and (max-width: 750px) {
+    .grid-team{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 
 /* .item_image{
     object-fit: ;

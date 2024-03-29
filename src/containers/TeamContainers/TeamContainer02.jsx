@@ -40,7 +40,9 @@ const TeamContainer02 = () => {
             /* img: 'images/team/6.jpg', */
             name: 'Fernando Maldonado',
             designation: 'INGENIERO',
-        },
+        }, 
+    ]
+    const TeamData2 = [
         {
             id: '7',
             /* img: 'images/team/7.jpg', */
@@ -77,6 +79,8 @@ const TeamContainer02 = () => {
             name: 'Giovana Pérez',
             designation: 'ARQUITECTO',
         },
+    ]
+    const TeamData3 = [
         {
             id: '13',
             /* img: 'images/team/9.jpg', */
@@ -112,9 +116,7 @@ const TeamContainer02 = () => {
             /* img: 'images/team/9.jpg', */
             name: 'Roxana Montes',
             designation: 'ARQUITECTO',
-        },
-
-        
+        },  
     ]
     return (
         <section >
@@ -131,18 +133,18 @@ const TeamContainer02 = () => {
                             breakpoints={{
                                 600: {
                                     width: 600,
-                                    slidesPerView: 2,
+                                    slidesPerView: 1,
                                     spaceBetween: 30,
                                 },
                                 768: {
                                     width: 768,
-                                    slidesPerView: 3,
+                                    slidesPerView: 1,
                                     spaceBetween: 30,
                                 },
                                 992: {
                                     width: 992,
-                                    slidesPerView: 3,
-                                    spaceBetween: 65,
+                                    slidesPerView: 1,
+                                    spaceBetween: 30,
                                 },
                             }}
                             autoHeight={true}
@@ -157,15 +159,42 @@ const TeamContainer02 = () => {
                                 nextEl: '.swiper-button-next',
                             }}
                         >
-                            {
-                                TeamData.map(data =>
-                                    <SwiperSlide>
-                                        <TeamCard02
-                                            key={data.id}
-                                            data={data}
-                                        />
-                                    </SwiperSlide>)
-                            }
+                            <SwiperSlide>
+                                <div className='grid-team'>
+                                    {
+                                        TeamData.map((data)=>{
+                                            return <TeamCard02
+                                                key={data.id}
+                                                data={data}
+                                            />
+                                        })
+                                    }
+                                </div>
+                            </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className='grid-team'>
+                                        {
+                                            TeamData2.map((data)=>{
+                                                return <TeamCard02
+                                                    key={data.id}
+                                                    data={data}
+                                                />
+                                            })
+                                        }
+                                    </div>
+                                </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='grid-team'>
+                                    {
+                                        TeamData3.map((data)=>{
+                                            return <TeamCard02
+                                                key={data.id}
+                                                data={data}
+                                            />
+                                        })
+                                    }
+                                </div>
+                            </SwiperSlide>
                         </Swiper>
 
                         {/* <!-- Add Buttons --> */}
