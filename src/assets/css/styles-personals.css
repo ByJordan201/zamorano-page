@@ -98,6 +98,12 @@
     width: 100%;
 }
 
+#member-team-grid{
+    width: 400%;
+    max-width: 100%;
+    text-align: start;
+}
+
 /* .item_image{
     object-fit: ;
 } */
