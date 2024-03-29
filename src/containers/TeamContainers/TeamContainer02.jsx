@@ -119,9 +119,9 @@ const TeamContainer02 = () => {
         },  
     ]
     return (
-        <section >
+        <section className="highlight_banner bg-dark-200">
             <div className="container">
-                <div className="section-header text-center has_line">
+                <div className="section-header text-center">
                     <h1 className="text-white">Nuestro equipo</h1>
                 </div>
 

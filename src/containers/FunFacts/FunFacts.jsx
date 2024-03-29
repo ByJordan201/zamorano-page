@@ -59,7 +59,7 @@ const FunFacts = (props) => {
             <section className='funfact-grid'>
                 <div className="section-header medium">
                     <div style={{textAlign:"center"}}>
-                        <h2 className='heading'>Nuestra misión</h2>
+                        <h2 className='heading text-white'>Nuestra misión</h2>
                     </div>
                     <div className="">
                         <div style={{textAlign:"center"}} className="">
@@ -70,7 +70,7 @@ const FunFacts = (props) => {
 
                 <div className="section-header medium">
                     <div style={{textAlign:"center"}}>
-                        <h2 className='heading'>Nuestra visión</h2>
+                        <h2 className='heading text-white'>Nuestra visión</h2>
                     </div>
                     <div className="">
                         <div style={{textAlign:"center"}} className="">
@@ -78,10 +78,11 @@ const FunFacts = (props) => {
                         </div>
                     </div>
                 </div>
-                
-                <div className="section-header medium">
+            </section>
+
+            <div className="section-header medium">
                     <div style={{textAlign:"center"}}>
-                        <h2 className='heading'>Nuestros valores</h2>
+                        <h2 className='heading text-white'>Nuestros valores</h2>
                     </div>
                     <div className="">
                         <div style={{textAlign:"center"}} className="">
@@ -92,9 +93,9 @@ const FunFacts = (props) => {
                             <Paragraph text="Responsabilidad"/>
                         </div>
                     </div>
-                </div>
-            </section>
-            <div className="container">
+            </div>
+
+            <div className="container" id="palito">
             <div className="section-header text-center has_line">
                 <h1 className="text-white">Logros en el año 2023</h1>
                 <p className="text-white">Descubre nuestros principales logros y estadísticas del último año</p>
