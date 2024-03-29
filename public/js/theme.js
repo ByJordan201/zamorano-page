@@ -302,7 +302,7 @@ Description: Mrittik is a Modern Architecture Theme
 
         // Team
         var swipert8 = new Swiper('.swiper_team', {
-            slidesPerView: '3',
+            slidesPerView: '1',
             centeredSlides: false,
             speed: 1400,
             spaceBetween: 65,
@@ -328,20 +328,20 @@ Description: Mrittik is a Modern Architecture Theme
                 dynamicBullets: true,
             },
             
-            breakpoints: {
-                767: {
-                    slidesPerView: 1,
-                    spaceBetween: 30,
-                },
-                1200: {
-                    slidesPerView: 1,
-                    spaceBetween: 65,
-                },
-                1400: {
-                    slidesPerView: 1,
-                    spaceBetween: 65,
-                },
-            }
+            // breakpoints: {
+            //     767: {
+            //         slidesPerView: 1,
+            //         spaceBetween: 30,
+            //     },
+            //     1200: {
+            //         slidesPerView: 1,
+            //         spaceBetween: 30,
+            //     },
+            //     1400: {
+            //         slidesPerView: 1,
+            //         spaceBetween: 30,
+            //     },
+            // }
         });
 
         // Gallery

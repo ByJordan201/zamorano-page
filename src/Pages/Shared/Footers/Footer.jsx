@@ -40,11 +40,11 @@ const Footer = () => {
 
     }, []);
     return (
-        <>
-            <footer className="footer bg-dark-200 box_padding">
+        <div className='base-footer'>
+            <footer className="footer bg-dark-200" id='fixed-footer'>
                 <div className="footer_inner bg-black">
                     <div className="container">
-                        <div className="row align-items-end">
+                        <div className="container-module">
                             {/* <div className="col-lg-4 col-md-2 col-sm-2">
                                 <div className="section-header">
                                     <h2>Contacto</h2>
@@ -80,7 +80,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-5 col-sm-5">
-                                <div className="footer_elements d-flex align-items-center justify-content-end">
+                                <div className="footer_elements d-flex align-items-center justify-content-center">
                                     <div className="footer_elements_inner">
                                         <div className="footer_logo">
                                             <a href="/" className="light_logo"><img className="logo_footer" src="images/logo-light.png" alt="logo" /></a>
@@ -118,7 +118,7 @@ const Footer = () => {
             <div className="totop">
                 <a href="#">UP</a>
             </div>
-        </>
+        </div>
     );
 };
 
