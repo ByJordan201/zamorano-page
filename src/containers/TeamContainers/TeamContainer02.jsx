@@ -130,23 +130,23 @@ const TeamContainer02 = () => {
                         <Swiper
                             modules={[Navigation, EffectFade, Pagination]}
                             effect="slide"
-                            // breakpoints={{
-                            //     600: {
-                            //         width: 600,
-                            //         slidesPerView: 1,
-                            //         spaceBetween: 30,
-                            //     },
-                            //     768: {
-                            //         width: 768,
-                            //         slidesPerView: 1,
-                            //         spaceBetween: 30,
-                            //     },
-                            //     992: {
-                            //         width: 992,
-                            //         slidesPerView: 1,
-                            //         spaceBetween: 30,
-                            //     },
-                            // }}
+                           /*  breakpoints={{
+                                600: {
+                                    width: 600,
+                                    slidesPerView: 1,
+                                    spaceBetween: 30,
+                                },
+                                768: {
+                                    width: 768,
+                                    slidesPerView: 1,
+                                    spaceBetween: 30,
+                                },
+                                992: {
+                                    width: 992,
+                                    slidesPerView: 1,
+                                    spaceBetween: 30,
+                                },
+                            }} */
                             autoHeight={true}
                             parallax={true}
                             controller={{
