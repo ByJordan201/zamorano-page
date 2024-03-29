@@ -6,7 +6,7 @@ const TextAbout = () => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-11 p-lg-0">
-                        <p className="about_para text-center">we meet new people <span><a href="#">everyday</a></span> coming with <span><a href="#">new dreams & hope our effort is to make them true</a></span></p>
+                        <p className="about_para text-center">we meet new peoples <span><a href="#">everyday</a></span> coming with <span><a href="#">new dreams & hope our effort is to make them true</a></span></p>
                     </div>
                 </div>
             </div>

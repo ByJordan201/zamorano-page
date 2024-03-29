@@ -45,12 +45,12 @@ const Footer = () => {
                 <div className="footer_inner bg-black">
                     <div className="container">
                         <div className="row align-items-end">
-                            <div className="col-lg-4 col-md-2 col-sm-2">
+                            {/* <div className="col-lg-4 col-md-2 col-sm-2">
                                 <div className="section-header">
                                     <h2>Contacto</h2>
                                 </div>
-                            </div>
-                            <div className="col-lg-4 col-md-5 col-sm-5">
+                            </div> */}
+                            <div className="col-lg-3 col-md-5 col-sm-5">
                                 <div className="communication">
                                     {/* <div className="info_body">
                                         <h6>Studio Website</h6>
@@ -64,13 +64,18 @@ const Footer = () => {
                                         <h6>Teléfono</h6>
                                         <h5>+52 612 125 95 86</h5>
                                     </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-3 col-md-5 col-sm-5">
+                                <div className="communication">
                                     <div className="info_body">
                                         <h6>Página de FB</h6>
-                                        <h5>ZIELPZ</h5>
+                                       <a href="https://www.facebook.com/ZIELPZ" ><h5>ZIELPZ</h5></a>
                                     </div>
                                     <div className="info_body">
                                         <h6>Página de IG</h6>
-                                        <h5>zamorano.ingestructural</h5>
+                                        <a href="https://www.instagram.com/zamorano.ingestructu" ><h5>zamorano.ingestructural</h5></a>
                                     </div>
                                 </div>
                             </div>

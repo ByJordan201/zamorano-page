@@ -76,7 +76,7 @@ const AboutUs = () => {
 
             <FunFacts className='funfacts bg_2' />
             <ServiceContainer01 />
-            <TextAbout />
+            {/* <TextAbout /> */}
             <TeamContainer02 />
             {/* <Testimonials /> */}
             {/* <FormContainer /> */}
