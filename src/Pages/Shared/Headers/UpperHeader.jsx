@@ -12,11 +12,6 @@ const UpperHeader = () => {
         }
     }
 
-    const [isActive, setActive] = useState("false");
-    const handleToggle = () => {
-        setActive(!isActive);
-    };
-
     useEffect(() => {
         // Aside info bar
         $('.aside_open').click(function (e) {
@@ -26,11 +21,6 @@ const UpperHeader = () => {
         $('.aside_close').click(function (e) {
             e.preventDefault();
             $('.aside_info_wrapper').removeClass('show');
-        });
-
-        // Toggle Header Search
-        $('.header_search .form-control-submit').click(function (e) {
-            $('.open_search').toggleClass('active');
         });
 
         // Sticky Header
@@ -59,52 +49,13 @@ const UpperHeader = () => {
                     <div className="mainnav d-none d-lg-block">
                         <ul className="main_menu">
                             <li className="menu-item "><NavLink to={"/"}>INICIO</NavLink>
-                            
-                            {/* 
-                                <ul className="sub-menu">
-                                    <li className="menu-item"><a href="/">Home One</a></li>
-                                    <li className="menu-item"><a href="/home-6">Home Six</a></li>
-                                </ul> */}
                             </li>
                             <li className="menu-item "><NavLink to={"/project-1"}>PROYECTOS</NavLink>
-                                {/* <ul className="sub-menu">
-                                    <li className="menu-item"><NavLink to={"/project-1"}>Projects One</NavLink></li>
-                                </ul> */}
                             </li>
                             <li className="menu-item "><NavLink to={"/about"}>QUIÉNES SOMOS</NavLink>
-                                {/* <ul className="sub-menu">
-                                    <li className="menu-item"><a href="/about">About Us</a></li>
-                                    <li className="menu-item "><a href="/team">NOSOTROS</a>
-                                        <ul className="sub-menu">
-                                            <li className="menu-item"><a href="/team">Our Team</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="menu-item "><a href="/service-1">SERVICIOS</a>
-                                        <ul className="sub-menu">
-                                            <li className="menu-item"><a href="/service-1">Service One</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="menu-item menu-item-has-children"><a href="/">Shop</a>
-                                        <ul className="sub-menu">
-                                            <li className="menu-item"><a href="/shop-1">Shop One</a></li>
-                                            <li className="menu-item"><a href="/shop-2">Shop Two</a></li>
-                                            <li className="menu-item"><a href="/shop-3">Shop Three</a></li>
-                                            <li className="menu-item"><a href="/shop-product">Product Details</a></li>
-                                            <li className="menu-item"><a href="/shop-cart">Shop Cart</a></li>
-                                            <li className="menu-item"><a href="/shop-checkout">Checkout</a></li>
-                                            <li className="menu-item"><a href="/login">Login</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="menu-item"><a href="/404">404 Page</a></li>
-                                    <li className="menu-item"><a href="/coming-soon">Coming Soon</a></li>
-                                </ul> */}
                             </li>
                             <li className="menu-item"><NavLink to={"/contact"}>CONTACTO</NavLink></li>
                             <li className="menu-item "><NavLink to={"/blog"}>NOTICIAS ZIE</NavLink>
-                                {/* <ul className="sub-menu">
-                                    <li className="menu-item"><a href="/blog">Blog</a></li>
-                                    <li className="menu-item"><a href="/blog-details">Blog Details</a></li>
-                                </ul> */}
                             </li>
                         </ul>
                     </div>
@@ -114,17 +65,6 @@ const UpperHeader = () => {
                             <span className="line"></span>
                             <span className="line"></span>
                         </button>
-
-                        {/* Header Search */}
-                        <div className="header_search" onClick={handleToggle}>
-                            <button type="submit" className="form-control-submit"><i className="bi bi-search"></i></button>
-                        </div>
-                        <div id="open_search" className={isActive ? null : "active"}>
-                            <form className="search_form">
-                                <input type="text" name="search" className="keyword form-control" placeholder="Search..." />
-                                <button type="submit" className="form-control-submit"><i className="bi bi-search"></i></button>
-                            </form>
-                        </div>
 
                         {/* Mobile Responsive Menu Toggle Button */}
                         <button type="button" className="mr_menu_toggle d-lg-none">
