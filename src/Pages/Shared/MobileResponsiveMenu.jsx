@@ -1,5 +1,5 @@
-import $ from 'jquery';
 import React, { useEffect } from 'react';
+import $ from 'jquery';
 
 const MobileResponsiveMenu = () => {
     useEffect(() => {
@@ -9,12 +9,10 @@ const MobileResponsiveMenu = () => {
             function checkMedia(mql) {
                 if (mql.matches) {
                     counter++;
-                    $(".mr_menu .mr_navmenu").append($(".main_menu"));
                     if (counter === 1) {
                         menuClickAction();
                     }
                 } else {
-                    $(".header .mainnav").append($(".main_menu"));
                     if (counter === 1) {
                         menuClickAction();
                     }
@@ -37,8 +35,8 @@ const MobileResponsiveMenu = () => {
         function menuClickAction() {
             // Mobile Responsive Menu 
             var mobileMenuContent = $('.mainnav').html();
-            $('.mr_menu .mr_navmenu').append(mobileMenuContent);
-            $('.mr_menu .mr_navmenu ul.main_menu li.menu-item-has-children').append($("<span class='submenu_opener d-lg-none'><i class='bi bi-chevron-right'></i></span>"));
+            $('.mr_navmenu').empty().append(mobileMenuContent);
+            $('.mr_navmenu ul.main_menu li.menu-item-has-children').append($("<span class='submenu_opener d-lg-none'><i class='bi bi-chevron-right'></i></span>"));
         }
 
         // Active Mobile Responsive Menu : Add Class in body tag
