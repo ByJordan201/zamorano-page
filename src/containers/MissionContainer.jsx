@@ -12,7 +12,7 @@ const MissionContainer = () => {
                     <div className="has_line"></div>
                     
                 </div> */}
-                <img className="image_container" src="images/bg/lobby.jpg" alt="" />
+                <img className="image_container" src="images/bg/lobby.png" alt="" />
 
                 <div className="mission_bottom_part">
                     <div className="row justify-content-center">
