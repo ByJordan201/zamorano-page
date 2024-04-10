@@ -20,7 +20,7 @@ const TeamContainer02 = () => {
         {
             id: '3',
             /* img: 'images/team/3.jpg', */
-            name: 'Jesús Díaz',
+            name: 'Ernesto Díaz',
             designation: 'INGENIERO',
         },
         {
@@ -46,7 +46,7 @@ const TeamContainer02 = () => {
         {
             id: '7',
             /* img: 'images/team/7.jpg', */
-            name: 'Edgardo Vázquez',
+            name: 'Rodolfo Vázquez',
             designation: 'INGENIERO',
         },
         {
@@ -64,20 +64,20 @@ const TeamContainer02 = () => {
         {
             id: '10',
             /* img: 'images/team/9.jpg', */
-            name: 'María Cota',
-            designation: 'INGENIERO',
+            name: 'Fernanda Cota',
+            designation: 'INGENIERA',
         },
         {
             id: '11',
             /* img: 'images/team/9.jpg', */
             name: 'Arantxa Reyes',
-            designation: 'ARQUITECTO',
+            designation: 'ARQUITECTA',
         },
         {
             id: '12',
             /* img: 'images/team/9.jpg', */
             name: 'Giovana Pérez',
-            designation: 'ARQUITECTO',
+            designation: 'ARQUITECTA',
         },
     ]
     const TeamData3 = [
@@ -85,37 +85,37 @@ const TeamContainer02 = () => {
             id: '13',
             /* img: 'images/team/9.jpg', */
             name: 'Perla Rosas',
-            designation: 'ARQUITECTO',
+            designation: 'ARQUITECTA',
         },
         {
             id: '14',
             /* img: 'images/team/9.jpg', */
             name: 'Karina Romero',
-            designation: 'ARQUITECTO',
+            designation: 'ARQUITECTA',
         },
         {
             id: '15',
             /* img: 'images/team/9.jpg', */
-            name: 'María Ruiz',
-            designation: 'ARQUITECTO',
+            name: 'Fernanda Ruiz',
+            designation: 'ARQUITECTA',
         },
         {
             id: '16',
             /* img: 'images/team/9.jpg', */
-            name: 'Leslie Arce',
-            designation: 'ARQUITECTO',
+            name: 'Leslie Heredia',
+            designation: 'ARQUITECTA',
         },
         {
             id: '17',
             /* img: 'images/team/9.jpg', */
             name: 'Yara Irigoyen',
-            designation: 'ARQUITECTO',
+            designation: 'ARQUITECTA',
         },
         {
             id: '18',
             /* img: 'images/team/9.jpg', */
             name: 'Roxana Montes',
-            designation: 'ARQUITECTO',
+            designation: 'ADMINISTRACIÓN ',
         },  
     ]
     return (

@@ -7,24 +7,24 @@ const Portfolio = () => {
     const ProjectData01 = [
         {
             id: '1',
-            img: 'images/portfolio/packery/Caplan.jpeg',
-            location: 'Los Cabos, B.C.S., 2019',
-            details: 'Casa Caplan',
-            tag: 'exterior'
+            img: 'images/portfolio/packery/Grieve.png',
+            location: 'Los Cabos, B.C.S., 2023',
+            details: 'Casa Grieve',
+            tag: 'interiors'
         },
         {
             id: '2',
-            img: 'images/portfolio/packery/Agora.jpg',
-            location: 'Hermosillo, Sonora 2021',
-            details: 'Ágora',
-            tag: 'exterior'
+            img: 'images/portfolio/packery/Chablé.png',
+            location: 'La Paz, B.C.S., 2022',
+            details: 'Hotel Chablé Mar de Cortés',
+            tag: 'residences'
         },
         {
             id: '3',
-            img: 'images/portfolio/packery/L24.png',
-            location: 'Los Cabos, B.C.S. 2022',
-            details: 'Lote 24',
-            tag: 'interiors'
+            img: 'images/portfolio/packery/CHIREY.jpeg',
+            location: 'La Paz, B.C.S. 2022',
+            details: 'CHIREY',
+            tag: 'landscape'
         },
         {
             id: '4',
@@ -35,26 +35,38 @@ const Portfolio = () => {
         },
         {
             id: '5',
-            img: 'images/portfolio/packery/CHIREY.jpeg',
-            location: 'La Paz, B.C.S. 2022',
-            details: 'CHIREY',
-            tag: 'landscape'
+            img: 'images/portfolio/packery/L24.png',
+            location: 'Los Cabos, B.C.S. 2022',
+            details: 'Lote 24',
+            tag: 'interiors'
         },
         {
             id: '6',
-            /* img: 'images/portfolio/packery/Chable.png', */
-            img: 'images/portfolio/packery/Chablé.png',
-            location: 'La Paz, B.C.S., 2022',
-            details: 'Hotel Chablé Mar de Cortés',
-            tag: 'residences'
+            img: 'images/portfolio/packery/Agora.jpg',
+            location: 'Hermosillo, Sonora 2021',
+            details: 'Ágora',
+            tag: 'exterior'
         },
         {
             id: '7',
-            img: 'images/portfolio/packery/Grieve.png',
-            location: 'Los Cabos, B.C.S., 2023',
-            details: 'Casa Grieve',
-            tag: 'interiors'
+            img: 'images/portfolio/packery/Caplan.jpeg',
+            location: 'La Paz, B.C.S. 2020',
+            details: 'Casa a medio camino',
+            tag: 'exterior'
         },
+        {
+            id: '8',
+            img: 'images/portfolio/packery/Caplan.jpeg',
+            location: 'Los Cabos, B.C.S., 2019',
+            details: 'Casa Caplan',
+            tag: 'exterior'
+        },
+        
+        
+        
+        
+        
+        
     ];
 
     const [filterKey, setFilterKey] = useState('*')

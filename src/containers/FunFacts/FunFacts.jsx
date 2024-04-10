@@ -62,7 +62,7 @@ const FunFacts = (props) => {
                         <h2 className='heading text-white'>Nuestra misión</h2>
                     </div>
                     <div className="">
-                        <div style={{textAlign:"center"}} className="">
+                        <div style={{textAlign:"justify"}} className="">
                             <Paragraph text="Nuestra misión es realizar proyectos estructurales con altos estándares de calidad, superando las expectativas de nuestros clientes, buscando la mejor opción para cada proyecto, a través de un sólido equipo de trabajo." />
                         </div>
                     </div>
@@ -73,7 +73,7 @@ const FunFacts = (props) => {
                         <h2 className='heading text-white'>Nuestra visión</h2>
                     </div>
                     <div className="">
-                        <div style={{textAlign:"center"}} className="">
+                        <div style={{textAlign:"justify"}} className="">
                             <Paragraph text="Nuestra visión es ser la empresa de diseño estructural líder a nivel regional en 2025, comprometidos siempre con la calidad en nuestros servicios y la satisfacción de nuestros clientes." />
                         </div>
                     </div>
