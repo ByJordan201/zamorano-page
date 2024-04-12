@@ -41,6 +41,15 @@
     margin-bottom: 50px;
     text-align: justify;
 }
+.servicios{
+    text-align: justify;
+}
+
+.custom-container {
+    max-width: 800px; /* Ajusta el tamaño máximo según tu preferencia */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
 .funfact-grid{
     width: 80%;
     margin: 0 auto;

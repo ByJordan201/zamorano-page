@@ -62,7 +62,7 @@ const FunFacts = (props) => {
                         <h2 className='heading text-white'>Nuestra misión</h2>
                     </div>
                     <div className="">
-                        <div style={{textAlign:"justify"}} className="">
+                        <div style={{textAlign:"center"}} className="">
                             <Paragraph text="Nuestra misión es realizar proyectos estructurales con altos estándares de calidad, superando las expectativas de nuestros clientes, buscando la mejor opción para cada proyecto, a través de un sólido equipo de trabajo." />
                         </div>
                     </div>
@@ -73,18 +73,18 @@ const FunFacts = (props) => {
                         <h2 className='heading text-white'>Nuestra visión</h2>
                     </div>
                     <div className="">
-                        <div style={{textAlign:"justify"}} className="">
+                        <div style={{textAlign:"center"}} className="">
                             <Paragraph text="Nuestra visión es ser la empresa de diseño estructural líder a nivel regional en 2025, comprometidos siempre con la calidad en nuestros servicios y la satisfacción de nuestros clientes." />
                         </div>
                     </div>
                 </div>
             </section>
-
-            <div className="section-header medium">
+            <div className="container custom-container">
+                <div className="section-header medium">
                     <div style={{textAlign:"center"}}>
                         <h2 className='heading text-white'>Nuestros valores</h2>
                     </div>
-                    <div className="">
+                    <div className="text-center">
                         <div style={{textAlign:"center"}} className="">
                             <Paragraph text="Nuestros valores nos dan una pauta del camino seguido, nos dan identidad empresarial y nos distinguen de los demás." />
                             <Paragraph text="Trabajo en equipo"/>
@@ -93,7 +93,9 @@ const FunFacts = (props) => {
                             <Paragraph text="Responsabilidad"/>
                         </div>
                     </div>
+                </div>
             </div>
+            
 
             <div className="container" id="palito">
             <div className="section-header text-center has_line">
