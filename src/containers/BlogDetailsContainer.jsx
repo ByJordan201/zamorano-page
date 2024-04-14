@@ -1,6 +1,6 @@
 import React from 'react';
 import BlockGallery from '../components/BlockGallery';
-import CommentList from '../components/CommentList';
+/* import CommentList from '../components/CommentList'; */
 import CommentRespond from '../components/CommentRespond';
 import Paragraph from '../components/Paragraph';
 import PointOrder from '../components/PointOrder';
@@ -44,7 +44,7 @@ const BlogDetailsContainer = () => {
 
                                         <PostFooter />
 
-                                        <CommentList />
+                                       {/*  <CommentList /> */}
 
                                         <CommentRespond />
 
