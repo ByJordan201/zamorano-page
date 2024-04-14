@@ -25,7 +25,7 @@ const RelatedProduct = ({relatedProduct}) => {
                                 <span className="product_item_price"></span>
                             </h4>
                             </Link>
-                            <div className="product_category"><a>{categoryName}</a></div>
+                            <div className="product_category"><a href="#">{categoryName}</a></div>
                         </div>
                     </div>
                 </div>

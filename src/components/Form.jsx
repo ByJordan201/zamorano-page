@@ -18,7 +18,7 @@ const Form = () => {
         const enlaceWhatsApp = `https://wa.me/526121682143?text=${encodeURIComponent(mensajeWhatsApp)}`;
 
         // Abrir el enlace en una nueva pestaña
-        window.open(enlaceWhatsApp, "_blank", "noopener,noreferrer");
+        window.open(enlaceWhatsApp, "_blank");
     };
     return (
         <div className="home_contact">

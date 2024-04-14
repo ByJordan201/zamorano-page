@@ -31,9 +31,9 @@ const SideBar = () => {
                 <div className="wp-block-group__inner-container">
                     <h2 className="widget-title">Recent Comments <span className="title-line"></span></h2>
                     <ol className="wp-block-latest-comments">
-                        <li><a>Patric Doe</a> on <a>California Mansion Residence</a></li>
-                        <li><a>Jonathon Hall</a> on <a>NewYork Seven Star Hotel</a></li>
-                        <li><a>Jonathon Hall</a> on <a>California Mansion Residence</a></li>
+                        <li><a href="#">Patric Doe</a> on <a href="#">California Mansion Residence</a></li>
+                        <li><a href="#">Jonathon Hall</a> on <a href="#">NewYork Seven Star Hotel</a></li>
+                        <li><a href="#">Jonathon Hall</a> on <a href="#">California Mansion Residence</a></li>
                     </ol>
                 </div>
             </div>
@@ -43,10 +43,10 @@ const SideBar = () => {
                 <div className="wp-block-group__inner-container">
                     <h2 className="widget-title">Archives <span className="title-line"></span></h2>
                     <ul className=" wp-block-archives-list wp-block-archives">
-                        <li><a>November 2021</a></li>
-                        <li><a>December 2020</a></li>
-                        <li><a>January 2019</a></li>
-                        <li><a>March 2018</a></li>
+                        <li><a href="#">November 2021</a></li>
+                        <li><a href="#">December 2020</a></li>
+                        <li><a href="#">January 2019</a></li>
+                        <li><a href="#">March 2018</a></li>
                     </ul>
                 </div>
             </div>
@@ -56,10 +56,10 @@ const SideBar = () => {
                 <div className="wp-block-group__inner-container">
                     <h2 className="widget-title">Categories <span className="title-line"></span></h2>
                     <ul className="wp-block-categories-list wp-block-categories">
-                        <li className="cat-item"><a>Architecture</a></li>
-                        <li className="cat-item"><a>Residence</a></li>
-                        <li className="cat-item"><a>Architect</a></li>
-                        <li className="cat-item"><a>Interior</a></li>
+                        <li className="cat-item"><a href="#">Architecture</a></li>
+                        <li className="cat-item"><a href="#">Residence</a></li>
+                        <li className="cat-item"><a href="#">Architect</a></li>
+                        <li className="cat-item"><a href="#">Interior</a></li>
                     </ul>
                 </div>
             </div>
@@ -70,12 +70,12 @@ const SideBar = () => {
                     <h2 className="widget-title">Tags <span className="title-line"></span></h2>
                     <ul className="wp-block-categories-list wp-block-categories">
                         <p className="wp-block-tag-cloud">
-                            <a className="tag-cloud-link">Interior</a>
-                            <a className="tag-cloud-link">Design</a>
-                            <a className="tag-cloud-link">Exterior</a>
-                            <a className="tag-cloud-link">Architecture</a>
-                            <a className="tag-cloud-link">Landscape</a>
-                            <a className="tag-cloud-link">Gallery</a>
+                            <a href="#" className="tag-cloud-link">Interior</a>
+                            <a href="#" className="tag-cloud-link">Design</a>
+                            <a href="#" className="tag-cloud-link">Exterior</a>
+                            <a href="#" className="tag-cloud-link">Architecture</a>
+                            <a href="#" className="tag-cloud-link">Landscape</a>
+                            <a href="#" className="tag-cloud-link">Gallery</a>
                         </p>
                     </ul>
                 </div>
