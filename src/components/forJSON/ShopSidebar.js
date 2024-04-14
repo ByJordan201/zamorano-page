@@ -128,7 +128,7 @@ const ShopSidebar = () => {
                                 <img className="primary_img" src="images/shop/products/1-1.png" alt="img" />
                             </div>
                             <div className="popular_product_content">
-                                <h5 className="product_title"><a href="#">Decor Plant</a></h5>
+                                <h5 className="product_title"><a>Decor Plant</a></h5>
                                 <h6 className="product_price">$22.00</h6>
                             </div>
                         </li>
@@ -137,7 +137,7 @@ const ShopSidebar = () => {
                                 <img className="primary_img" src="images/shop/products/7-1.png" alt="img" />
                             </div>
                             <div className="popular_product_content">
-                                <h5 className="product_title"><a href="#">Center Table</a></h5>
+                                <h5 className="product_title"><a>Center Table</a></h5>
                                 <h6 className="product_price">$22.00</h6>
                             </div>
                         </li>
@@ -146,7 +146,7 @@ const ShopSidebar = () => {
                                 <img className="primary_img" src="images/shop/products/9-1.png" alt="img" />
                             </div>
                             <div className="popular_product_content">
-                                <h5 className="product_title"><a href="#">Black Vase</a></h5>
+                                <h5 className="product_title"><a>Black Vase</a></h5>
                                 <h6 className="product_price">$22.00</h6>
                             </div>
                         </li>
@@ -158,12 +158,12 @@ const ShopSidebar = () => {
                 <h2 className="widget-title">Product Tag <span className="title-line"></span></h2>
                 <div className="sidebar_tags">
                     <ul className="tag_list">
-                        <a href="#">Architecture</a>
-                        <a href="#">Interior</a>
-                        <a href="#">Trendy</a>
-                        <a href="#">Decor</a>
-                        <a href="#">Dining</a>
-                        <a href="#">Lawn</a>
+                        <a>Architecture</a>
+                        <a>Interior</a>
+                        <a>Trendy</a>
+                        <a>Decor</a>
+                        <a>Dining</a>
+                        <a>Lawn</a>
                     </ul>
                 </div>
             </div>
