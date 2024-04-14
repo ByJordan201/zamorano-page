@@ -116,7 +116,7 @@ const Footer = () => {
             </footer >
 
             <div className="totop">
-                <a href="">UP</a>
+                <a href="/">UP</a>
             </div>
         </div>
     );

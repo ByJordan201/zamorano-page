@@ -7,7 +7,7 @@ const CategoryItem = ({ categoryItem }) => {
         <li className="category_item">
             <div className="category_item_inner">
                 {/* <Link to={`/shop-category/${categoryID}`}> */}
-                <div className="cat_name"><a href="">{name}</a></div>
+                <div className="cat_name"><a href="/">{name}</a></div>
                 {/* </Link> */}
                 <span className="cat_toggler">
                     <a data-bs-toggle="collapse" href={href}>
@@ -17,13 +17,13 @@ const CategoryItem = ({ categoryItem }) => {
             </div>
             <ul id={id} className="child_category collapse">
                 <li>
-                    <div className="cat_name"><a href="">{item1}</a></div>
+                    <div className="cat_name"><a href="/">{item1}</a></div>
                 </li>
                 {/* <>
                 {
                     item1 ? <>
                                 <li>
-                                <div className="cat_name"><a href="">{item1}</a></div>
+                                <div className="cat_name"><a href="/">{item1}</a></div>
                                 </li> 
                             </> : <></>
                 }
@@ -33,7 +33,7 @@ const CategoryItem = ({ categoryItem }) => {
                 {
                     item2 ? <>
                                 <li>
-                                <div className="cat_name"><a href="">{item2}</a></div>
+                                <div className="cat_name"><a href="/">{item2}</a></div>
                                 </li> 
                             </> : <></>
                 }
@@ -42,7 +42,7 @@ const CategoryItem = ({ categoryItem }) => {
                 {
                     item3 ? <>
                                 <li>
-                                <div className="cat_name"><a href="">{item3}</a></div>
+                                <div className="cat_name"><a href="/">{item3}</a></div>
                                 </li> 
                             </> : <></>
                 }

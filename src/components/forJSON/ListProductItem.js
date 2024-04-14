@@ -12,7 +12,7 @@ const ListProductItem = ({productItem, handleAddToCart}) => {
                 </div>
                 <div className="product_item_inner">
                     <div className="label_text">
-                    <h4 className="product_item_name"><a href="">{name}</a> <span className="product_item_price"> <del className={oldClass}>{oldPrice}</del> {price}</span></h4>
+                    <h4 className="product_item_name"><a href="/">{name}</a> <span className="product_item_price"> <del className={oldClass}>{oldPrice}</del> {price}</span></h4>
                         <div className="rating">
                             <ul>
                                 <li><i className="bi bi-star-fill"></i></li>
@@ -23,7 +23,7 @@ const ListProductItem = ({productItem, handleAddToCart}) => {
                             </ul>
                         </div>
                         <div onClick={() => handleAddToCart(productItem)} className="cart_button">
-                            <a href="" className="button">Add to Cart</a>
+                            <a href="/" className="button">Add to Cart</a>
                         </div>
                     </div>
                 </div>
