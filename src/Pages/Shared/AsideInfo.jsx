@@ -23,8 +23,8 @@ const AsideInfo = () => {
                 </div>
                 <div className="social_sites">
                     <ul className="d-flex align-items-center justify-content-center">
-                        <li><a id='base-icon-social' href="https://www.facebook.com/ZIELPZ" target="_blank"><i id='icon-social' className="bi bi-facebook"></i></a></li>
-                        <li><a id='base-icon-social' href="https://www.instagram.com/zamorano.ingestructural/" target="_blank"><i id='icon-social' className="bi bi-instagram"></i></a></li>
+                        <li><a id='base-icon-social' href="https://www.facebook.com/ZIELPZ" target="_blank" rel="noreferrer"><i id='icon-social' className="bi bi-facebook"></i></a></li>
+                        <li><a id='base-icon-social' href="https://www.instagram.com/zamorano.ingestructural/" target="_blank" rel="noreferrer"><i id='icon-social' className="bi bi-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>

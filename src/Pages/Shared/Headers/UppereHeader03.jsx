@@ -46,7 +46,7 @@ const UppereHeader03 = () => {
                                     <li className="menu-item active"><a href="home-10">Home Ten</a></li>
                                 </ul>
                             </li>
-                            <li className="menu-item menu-item-has-children"><a href="#">Gallery</a>
+                            <li className="menu-item menu-item-has-children"><a href="">Gallery</a>
                                 <ul className="sub-menu">
                                     <li className="menu-item"><a href="/project-1">Projects One</a></li>
                                     <li className="menu-item"><a href="/project-2">Projects Two</a></li>
@@ -55,23 +55,23 @@ const UppereHeader03 = () => {
                                     <li className="menu-item"><a href="/project-details-2">Peoject Details Two</a></li>
                                 </ul>
                             </li>
-                            <li className="menu-item menu-item-has-children"><a href="#">Pages</a>
+                            <li className="menu-item menu-item-has-children"><a href="">Pages</a>
                                 <ul className="sub-menu">
                                     <li className="menu-item"><a href="/about">About Us</a></li>
-                                    <li className="menu-item menu-item-has-children"><a href="#">Team</a>
+                                    <li className="menu-item menu-item-has-children"><a href="">Team</a>
                                         <ul className="sub-menu">
                                             <li className="menu-item"><a href="/team">Our Team</a></li>
                                             <li className="menu-item"><a href="/team-details">Team Details</a></li>
                                         </ul>
                                     </li>
-                                    <li className="menu-item menu-item-has-children"><a href="#">Services</a>
+                                    <li className="menu-item menu-item-has-children"><a href="">Services</a>
                                         <ul className="sub-menu">
                                             <li className="menu-item"><a href="/service-1">Service One</a></li>
                                             <li className="menu-item"><a href="/service-2">Service Two</a></li>
                                             <li className="menu-item"><a href="/service-details">Service Details</a></li>
                                         </ul>
                                     </li>
-                                    <li className="menu-item menu-item-has-children"><a href="#">Shop</a>
+                                    <li className="menu-item menu-item-has-children"><a href="">Shop</a>
                                         <ul className="sub-menu">
                                             <li className="menu-item"><a href="/shop-1">Shop One</a></li>
                                             <li className="menu-item"><a href="/shop-2">Shop Two</a></li>
@@ -87,7 +87,7 @@ const UppereHeader03 = () => {
                                 </ul>
                             </li>
                             <li className="menu-item"><a href="contact">Contacts</a></li>
-                            <li className="menu-item menu-item-has-children"><a href="#">Blog</a>
+                            <li className="menu-item menu-item-has-children"><a href="">Blog</a>
                                 <ul className="sub-menu">
                                     <li className="menu-item"><a href="/blog">Blog</a></li>
                                     <li className="menu-item"><a href="/blog-details">Blog Details</a></li>

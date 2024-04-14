@@ -87,10 +87,10 @@ const Footer = () => {
                                         </div>
                                         <div className="footer_social">
                                             <ul className="social_list">
-                                                <li className="facebook"><a id='base-icon-social' href="https://www.facebook.com/ZIELPZ" target="_blank"><i id='icon-social' className="bi bi-facebook" ></i></a></li>
+                                                <li className="facebook"><a id='base-icon-social' href="https://www.facebook.com/ZIELPZ" target="_blank" rel="noreferrer"><i id='icon-social' className="bi bi-facebook" ></i></a></li>
                                                 {/* <li className="twitter"
                                                 ><a><i className="bi bi-twitter"></i></a></li> */}
-                                                <li className="instagram"><a id='base-icon-social' href="https://www.instagram.com/zamorano.ingestructural/" target="_blank"><i id='icon-social' className="bi bi-instagram"></i></a></li>
+                                                <li className="instagram"><a id='base-icon-social' href="https://www.instagram.com/zamorano.ingestructural/" target="_blank" rel="noreferrer"><i id='icon-social' className="bi bi-instagram"></i></a></li>
                                                 {/* <li className="youbetube"><a><i className="bi bi-youtube"></i></a></li> */}
                                             </ul>
                                         </div>
@@ -116,7 +116,7 @@ const Footer = () => {
             </footer >
 
             <div className="totop">
-                <a href="#">UP</a>
+                <a href="">UP</a>
             </div>
         </div>
     );

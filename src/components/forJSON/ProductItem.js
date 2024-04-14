@@ -18,12 +18,12 @@ const ProductItem = ({productItem, handleAddToCart}) => {
                 <div className="product_item_inner">
                     <div className="label_text">
                         {/* <Link to={`/shop-product/${id}`}> */}
-                            <h4 className="product_item_name"><a href="#">{name}</a>
+                            <h4 className="product_item_name"><a href="">{name}</a>
                                 <span className="product_item_price"> <del className={oldClass}>{oldPrice}</del> {price}</span>
                                 <span className="product_item_price"></span>
                             </h4>
                         {/* </Link> */}
-                        <div className="product_category"><a href="#">{categoryName}</a></div>
+                        <div className="product_category"><a href="">{categoryName}</a></div>
                     </div>
                 </div>
             </div>

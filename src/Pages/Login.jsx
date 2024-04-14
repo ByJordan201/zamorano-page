@@ -32,7 +32,7 @@ const Login = () => {
                                         </div>
 
                                         <div className="form-group mt-4">
-                                            <label><a href="#">Forgot Password</a></label>
+                                            <label><a href="">Forgot Password</a></label>
                                         </div>
                                     </form>
                                 </div>
