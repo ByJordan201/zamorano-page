@@ -6,7 +6,7 @@ import Paragraph from '../../components/Paragraph';
 import TeamCard from '../../components/TeamElements/TeamCard';
 
 const TeamContainer = () => {
-    const TeamData = [
+    /* const TeamData = [
         {
             id: '1',
             img: 'images/team/1.jpg',
@@ -61,7 +61,7 @@ const TeamContainer = () => {
             name: 'Michel Robertson',
             designation: 'ARCHITECT',
         },
-    ]
+    ] */
     return (
         <section className="team in-team">
             <div className="container-sm">
@@ -77,7 +77,7 @@ const TeamContainer = () => {
                     </div>
                 </div>
 
-                <div className="team_inner">
+                {/* <div className="team_inner">
                     <div className="row">
                         {
                             TeamData.map(data =>
@@ -87,7 +87,7 @@ const TeamContainer = () => {
                                 />)
                         }
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     );

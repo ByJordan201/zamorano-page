@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import './App.css';
-import ThemeSwitcher from './Pages/Shared/ThemeSwitcher';
+/* import ThemeSwitcher from './Pages/Shared/ThemeSwitcher'; */
 import { routes } from './Routes/Router';
 import './assets/css/style.css';
 
