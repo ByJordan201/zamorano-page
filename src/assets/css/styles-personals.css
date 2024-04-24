@@ -65,6 +65,12 @@
     line-height: 40px;
     font-size:x-large;
 }
+
+.whatsapp-icon {
+    font-size: 300%; /* Ajusta el tamaño según sea necesario */
+  }
+
+
 @media screen and (max-width: 750px) {
     .funfact-grid{
         grid-template-columns: none;

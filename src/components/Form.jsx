@@ -15,7 +15,7 @@ const Form = () => {
         ${mensaje}`; // %0A se utiliza para agregar un salto de línea en el mensaje
 
         // Construir el enlace de WhatsApp con el mensaje personalizado
-        const enlaceWhatsApp = `https://wa.me/526121682143?text=${encodeURIComponent(mensajeWhatsApp)}`;
+        const enlaceWhatsApp = `https://wa.me/526121259586?text=${encodeURIComponent(mensajeWhatsApp)}`;
 
         // Abrir el enlace en una nueva pestaña
         window.open(enlaceWhatsApp, "_blank");
@@ -28,8 +28,8 @@ const Form = () => {
                 <input className="form-control form-control-lg" name="email" id="email" type="email" placeholder="Correo electrónico" required aria-label=".form-control-lg example" /> */}
                 <textarea className="form-control pt-4" name="message" id="message" placeholder="Describe brevemente tu proyecto" rows="3"></textarea>
                 <div className="btn_group">
-                    {/* <a href="https://wa.me/526121682143" target='_blank' className="btn olive">Enviar</a> */}
-                    <button  type="submit" className="btn olive" value="Enviar mensaje">Enviar</button>
+                    <button  type="submit" className="btn olive" value="Enviar mensaje"> <i class="bi bi-whatsapp whatsapp-icon"></i></button>
+                    
                 </div>
             </form>
         </div>
