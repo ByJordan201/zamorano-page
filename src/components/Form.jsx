@@ -15,7 +15,7 @@ const Form = () => {
         ${mensaje}`; // %0A se utiliza para agregar un salto de línea en el mensaje
 
         // Construir el enlace de WhatsApp con el mensaje personalizado
-        const enlaceWhatsApp = `https://wa.me/526121259586?text=${encodeURIComponent(mensajeWhatsApp)}`;
+        const enlaceWhatsApp = `https://wa.me/526122185290?text=${encodeURIComponent(mensajeWhatsApp)}`;
 
         // Abrir el enlace en una nueva pestaña
         window.open(enlaceWhatsApp, "_blank");
