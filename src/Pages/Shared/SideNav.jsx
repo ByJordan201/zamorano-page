@@ -4,7 +4,7 @@ const SideNav = () => {
     return (
         <div className="mr_menu">
             <div className="mr_menu_overlay"></div>
-            <div className="logo_left_menu"><a href="/" className="light_logo"><img src="images/logo-circle.svg" alt="logo" /></a></div>
+            <div className="logo_left_menu"><a href="/" className="light_logo"><img src="images/" alt="logo" /></a></div>
 
             {/* MainMenu */}
             <ul className="main_menu">

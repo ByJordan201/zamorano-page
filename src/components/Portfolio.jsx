@@ -49,7 +49,7 @@ const Portfolio = () => {
         },
         {
             id: '7',
-            img: 'images/portfolio/packery/Caplan.jpeg',
+            img: 'images/portfolio/packery/Halfwayhouse.png',
             location: 'La Paz, B.C.S. 2020',
             details: 'Casa a medio camino',
             tag: 'exterior'

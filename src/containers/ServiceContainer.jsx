@@ -12,8 +12,28 @@ const ServiceContainer01 = () => {
                     </div>
                     <div className="row">
                         <div className="col-lg-4 servicios" >
-                            <ServiceCard number="01" imgDark="images/icon_box/d1.svg" imgLight="images/icon_box/d1-light.svg" title="Proyecto estructural" text="Con 20 años de experiencia, ofrecemos servicios de diseño estructural, análisis estructural requeridos para la construcción de espacios donde se desarrolle el dimensionamiento de un sistema estructural, con el objetivo de cumplir la normatividad y economía requerida por nuestros clientes." />
+                            <ServiceCard number="01" imgDark="images/icon_box/d1.svg" imgLight="images/icon_box/d1-light.svg" title="Proyecto estructural" text="Con 20 años de experiencia, ofrecemos servicios de diseño estructural, requeridos para la construcción de espacios donde se desarrolle el dimensionamiento de un sistema estructural, con el objetivo de cumplir la normatividad y economía requerida por nuestros clientes, según el tipo de estructura solicitada:
+                                    <br> -Mampostería,
+                                    <br> -Concreto armado,
+                                    <br> -Acero estructural,
+                                    <br> -Novidesa,
+                                    <br> -Quad Lock,
+                                    <br> -EF Block,
+                                    <br> -Madera." />
                         </div>
+                        {/* <div className="col-lg-4 servicios" >
+                            <ServiceCard number="01" imgDark="images/icon_box/d1.svg" imgLight="images/icon_box/d1-light.svg" title="Proyecto estructural" text="Con 20 años de experiencia, ofrecemos servicios de diseño estructural, requeridos para la construcción de espacios donde se desarrolle el dimensionamiento de un sistema estructural, con el objetivo de cumplir la normatividad y economía requerida por nuestros clientes, según el tipo de estructura solicitada:
+                                    Mampostería,
+                                    Concreto armado,
+                                    Acero estructural,
+                                    Novidesa,
+                                    Quad Lock,
+                                    EF Block,
+                                    Madera." />
+                        </div>
+                        <div className="col-lg-4 servicios" >
+                            <ServiceCard number="01" imgDark="images/icon_box/d1.svg" imgLight="images/icon_box/d1-light.svg" title="Proyecto estructural" text="Con 20 años de experiencia, ofrecemos servicios de diseño estructural, análisis estructural requeridos para la construcción de espacios donde se desarrolle el dimensionamiento de un sistema estructural, con el objetivo de cumplir la normatividad y economía requerida por nuestros clientes." />
+                        </div> */}
 
 
                         <div className="col-lg-4 servicios" >

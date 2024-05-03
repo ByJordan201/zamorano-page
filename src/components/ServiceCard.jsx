@@ -7,7 +7,11 @@ const ServiceCard = (props) => {
             <img src={props.imgDark} alt="Icon Box" className="dark" />
             <img src={props.imgLight} alt="Icon Box" className="light" />
             <h4 className="text-white">{props.title}</h4>
-            <p className="text-gray-600">{props.text}</p>
+            <p
+                className="text-gray-600"
+                dangerouslySetInnerHTML={{ __html: props.text }}
+            ></p>
+            {/* <p className="text-gray-600">{props.text}</p> */}
             {/* <div className="arrow_effect">
                 <a href="/service-details"><span className="crossline1"></span><span className="crossline2"></span></a>
             </div> */}
