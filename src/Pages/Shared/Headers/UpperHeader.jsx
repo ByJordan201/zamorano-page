@@ -55,8 +55,8 @@ const UpperHeader = () => {
                             <li className="menu-item "><NavLink to={"/about"}>QUIÉNES SOMOS</NavLink>
                             </li>
                             <li className="menu-item"><NavLink to={"/contact"}>CONTACTO</NavLink></li>
-                            <li className="menu-item "><NavLink to={"/blog"}>NOTICIAS ZIE</NavLink>
-                            </li>
+                            {/* <li className="menu-item "><NavLink to={"/blog"}>NOTICIAS ZIE</NavLink>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="header_right_part d-flex align-items-center">
