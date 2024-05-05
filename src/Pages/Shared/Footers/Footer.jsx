@@ -94,6 +94,8 @@ const Footer = () => {
                                                 ><a><i className="bi bi-twitter"></i></a></li> */}
                                                 <li className="instagram"><a id='base-icon-social' href="https://www.instagram.com/zamorano.ingestructural/" target="_blank"><i id='icon-social' className="bi bi-instagram"></i></a></li>
                                                 {/* <li className="youbetube"><a><i className="bi bi-youtube"></i></a></li> */}
+
+                                                <li className="whatsapp"><a id='base-icon-social' href="https://wa.me/526122185290?" target="_blank"><i id='icon-social' className="bi bi-whatsapp" ></i></a></li>
                                             </ul>
                                         </div>
                                         {/* <div className="terms_condition">
@@ -117,9 +119,9 @@ const Footer = () => {
                 </div>
             </footer >
 
-            <div className="totop">
+            {/* <div className="totop">
                 <a href="#">UP</a>
-            </div>
+            </div> */}
         </div>
     );
 };
