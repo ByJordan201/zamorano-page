@@ -69,13 +69,13 @@ const Footer = () => {
 
                             <div className="col-lg-3 col-md-5 col-sm-5">
                                 <div className="communication">
-                                    <div className="info_body">
+                                 <div className="info_body">
                                         <h6>Página de FB</h6>
-                                       <a href="https://www.facebook.com/ZIELPZ" ><h5>ZIELPZ</h5></a>
+                                       <a href="https://www.facebook.com/ZIELPZ" target="_blank"><h5>ZIELPZ</h5></a>
                                     </div>
                                     <div className="info_body">
                                         <h6>Página de IG</h6>
-                                        <a href="https://www.instagram.com/zamorano.ingestructu" ><h5>zamorano.ingestructural</h5></a>
+                                        <a href="https://www.instagram.com/zamorano.ingestructu" target="_blank"><h5>zamorano.ingestructural</h5></a>
                                     </div>
                                 </div>
                             </div>

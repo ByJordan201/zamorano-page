@@ -5,7 +5,7 @@ import CommentRespond from '../components/CommentRespond';
 import Paragraph from '../components/Paragraph';
 import PointOrder from '../components/PointOrder';
 import PostFooter from '../components/PostFooter';
-import SideBar from '../components/SideBar';
+/* import SideBar from '../components/SideBar'; */
 import WidgetTitle from '../components/WidgetTitle';
 
 const BlogDetailsContainer = () => {
@@ -54,7 +54,7 @@ const BlogDetailsContainer = () => {
                         </div>
 
                         <div className="col-lg-4 col-md-4">
-                            <SideBar></SideBar>
+                           {/*  <SideBar></SideBar> */}
                         </div>
                     </div>
                 </div>

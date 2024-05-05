@@ -1,12 +1,8 @@
 import React from 'react';
-import Video from "../components/Video";
-import FormContainer from "../containers/FormContainer";
 import FunFacts from '../containers/FunFacts/FunFacts';
 import MissionContainer from "../containers/MissionContainer";
 import ServiceContainer01 from '../containers/ServiceContainer';
 import TeamContainer02 from '../containers/TeamContainers/TeamContainer02';
-import Testimonials from '../containers/Testimonials';
-import TextAbout from './TextAbout';
 
 const AboutUs = () => {
     const TeamData = [
@@ -69,17 +65,9 @@ const AboutUs = () => {
     return (
         <main className="wrapper">
             <MissionContainer />
-
-            {/* <div className="video-block" >
-                <Video />
-            </div> */}
-
             <FunFacts className='funfacts bg_2' />
             <ServiceContainer01 />
-            {/* <TextAbout /> */}
             <TeamContainer02 />
-            {/* <Testimonials /> */}
-            {/* <FormContainer /> */}
         </main>
     );
 };
