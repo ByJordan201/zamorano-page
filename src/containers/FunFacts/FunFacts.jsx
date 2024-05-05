@@ -1,5 +1,5 @@
-import $ from 'jquery';
-import React, { useEffect } from 'react';
+/* import $ from 'jquery';
+import React, { useEffect } from 'react'; */
 
 import FunFact from '../../components/FunFactElements/FunFact';
 import Paragraph from '../../components/Paragraph';
