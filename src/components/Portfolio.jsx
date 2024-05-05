@@ -7,56 +7,56 @@ const Portfolio = () => {
     const ProjectData01 = [
         {
             id: '1',
-            img: 'images/portfolio/packery/Grieve.png',
+            img: 'images/portfolio/packery/Grieve.webp',
             location: 'Los Cabos, B.C.S., 2023',
             details: 'Casa Grieve',
             tag: 'interiors'
         },
         {
             id: '2',
-            img: 'images/portfolio/packery/Chablé.png',
+            img: 'images/portfolio/packery/Chable.webp',
             location: 'La Paz, B.C.S., 2022',
             details: 'Hotel Chablé Mar de Cortés',
             tag: 'residences'
         },
         {
             id: '3',
-            img: 'images/portfolio/packery/CHIREY.jpeg',
+            img: 'images/portfolio/packery/CHIREY.webp',
             location: 'La Paz, B.C.S. 2022',
             details: 'CHIREY',
             tag: 'landscape'
         },
         {
             id: '4',
-            img: 'images/portfolio/packery/Fundadores26-2.png',
+            img: 'images/portfolio/packery/Fundadores26-2.webp',
             location: 'Los Cabos, B.C.S. 2022',
             details: 'Fundadores 26',
             tag: 'interiors'
         },
         {
             id: '5',
-            img: 'images/portfolio/packery/L24.png',
+            img: 'images/portfolio/packery/L24.webp',
             location: 'Los Cabos, B.C.S. 2022',
             details: 'Lote 24',
             tag: 'interiors'
         },
         {
             id: '6',
-            img: 'images/portfolio/packery/Agora.jpg',
+            img: 'images/portfolio/packery/Agora.webp',
             location: 'Hermosillo, Sonora 2021',
             details: 'Ágora',
             tag: 'exterior'
         },
         {
             id: '7',
-            img: 'images/portfolio/packery/Halfwayhouse.png',
+            img: 'images/portfolio/packery/Halfwayhouse.webp',
             location: 'La Paz, B.C.S. 2020',
             details: 'Casa a medio camino',
             tag: 'exterior'
         },
         {
             id: '8',
-            img: 'images/portfolio/packery/Caplan.jpeg',
+            img: 'images/portfolio/packery/Caplan.webp',
             location: 'Los Cabos, B.C.S., 2019',
             details: 'Casa Caplan',
             tag: 'exterior'

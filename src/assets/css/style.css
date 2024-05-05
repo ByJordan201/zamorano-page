@@ -11385,16 +11385,39 @@ label {
 .btn.olive {
   background-color: #a6a182;
   color: #ffffff;
+  position: relative;
+  overflow: hidden; /* Para mantener el tamaño constante del botón */
+  transition: background-color 0.3s ease; /* Agregar una transición suave para el cambio de color */
 }
 
 .btn.olive:before {
+  content: ''; 
   background-image: url(../../../build/images/btn-texture-olive.png);
   border-color: #a6a182;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .btn.olive:hover {
   background-color: rgba(166, 161, 130, 0.6);
   color: #ffffff;
+}
+
+.btn.olive:hover .whatsapp-icon {
+  visibility: hidden; /* Oculta el icono específicamente cuando el botón está en estado de hover */
+}
+
+.btn.olive:hover::after {
+  content: 'Enviar'; /* Agrega el texto "Enviar" después del contenido del botón */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
 }
 
 .btn_2 {

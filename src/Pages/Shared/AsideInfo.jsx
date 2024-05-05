@@ -14,9 +14,11 @@ const AsideInfo = () => {
 
                 <div className="aside_info_inner_box">
                     <h5>Información de contacto</h5>
-                    <p>+52 612 125 95 86</p>
+                    <p>Teléfono: <a href="tel:+526121259586">+52 612 125 95 86</a></p>
+                    
                     {/* <p>3 Madison Street, NY <br /> United States of America</p> */}
-                    <p>contacto@zamoranoie.com</p>
+                    <p>Correo: <a href="mailto:contacto@zamoranoie.com">contacto@zamoranoie.com</a></p>
+                    {/* <p>contacto@zamoranoie.com</p> */}
 
                     <h5>Localidad</h5>
                     <p>La Paz, B.C.S.<br /> México </p>

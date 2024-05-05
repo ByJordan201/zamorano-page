@@ -70,6 +70,11 @@
     font-size: 300%; /* Ajusta el tamaño según sea necesario */
   }
 
+.bi.bi-info-circle {
+    color: #ffffff; /* Cambia el color del icono a rojo */
+}
+
+
 
 @media screen and (max-width: 750px) {
     .funfact-grid{

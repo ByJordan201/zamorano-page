@@ -28,7 +28,7 @@ const Form = () => {
                 <input className="form-control form-control-lg" name="email" id="email" type="email" placeholder="Correo electrónico" required aria-label=".form-control-lg example" /> */}
                 <textarea className="form-control pt-4" name="message" id="message" placeholder="Describe brevemente tu proyecto" rows="3"></textarea>
                 <div className="btn_group">
-                    <button  type="submit" className="btn olive" value="Enviar mensaje"> <i class="bi bi-whatsapp whatsapp-icon"></i></button>
+                    <button  type="submit" className="btn olive" value="Enviar mensaje"><i class="bi bi-whatsapp whatsapp-icon"></i></button>
                     
                 </div>
             </form>

@@ -58,11 +58,13 @@ const Footer = () => {
                                     </div> */}
                                     <div className="info_body">
                                         <h6>Correo de contacto</h6>
-                                        <h5>contacto@zamoranoie.com</h5>
+                                        <a href="mailto:contacto@zamoranoie.com">contacto@zamoranoie.com</a>
+                                        {/* <h5>contacto@zamoranoie.com</h5> */}
                                     </div>
                                     <div className="info_body">
                                         <h6>Teléfono</h6>
-                                        <h5>+52 612 125 95 86</h5>
+                                        <a href="tel:+526121259586">+52 612 125 95 86</a>
+                                        {/* <h5>+52 612 125 95 86</h5> */}
                                     </div>
                                 </div>
                             </div>

@@ -60,11 +60,9 @@ const UpperHeader = () => {
                         </ul>
                     </div>
                     <div className="header_right_part d-flex align-items-center">
-                        <button className="aside_open">
-                            <span className="line"></span>
-                            <span className="line"></span>
-                            <span className="line"></span>
-                        </button>
+                    <button className="aside_open">
+                    <i class="bi bi-info-circle"></i>
+                    </button>
 
                         {/* Mobile Responsive Menu Toggle Button */}
                         <button type="button" className="mr_menu_toggle d-lg-none">
