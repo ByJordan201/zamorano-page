@@ -27,6 +27,7 @@ const AsideInfo = () => {
                     <ul className="d-flex align-items-center justify-content-center">
                         <li><a id='base-icon-social' href="https://www.facebook.com/ZIELPZ" target="_blank"><i id='icon-social' className="bi bi-facebook"></i></a></li>
                         <li><a id='base-icon-social' href="https://www.instagram.com/zamorano.ingestructural/" target="_blank"><i id='icon-social' className="bi bi-instagram"></i></a></li>
+                        <li className="whatsapp"><a id='base-icon-social' href="https://wa.me/526122185290?" target="_blank"><i id='icon-social' className="bi bi-whatsapp" ></i></a></li>
                     </ul>
                 </div>
             </div>
