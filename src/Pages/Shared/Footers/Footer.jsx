@@ -77,7 +77,7 @@ const Footer = () => {
                                     </div>
                                     <div className="info_body">
                                         <h6>Página de IG</h6>
-                                        <a href="https://www.instagram.com/zamorano.ingestructu" target="_blank"><h5>zamorano.ingestructural</h5></a>
+                                        <a href="https://www.instagram.com/zamorano.ingestructural" target="_blank"><h5>zamorano.ingestructural</h5></a>
                                     </div>
                                 </div>
                             </div>
